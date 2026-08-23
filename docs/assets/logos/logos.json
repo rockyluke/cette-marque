@@ -938,5 +938,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Perfetti_Van_Melle_logo.svg",
     "license": "Public domain",
     "artist": "Unknown"
+  },
+  "Oreo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Oreo_Logo_2014.svg",
+    "commons_title": "File:Oreo Logo 2014.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Oreo_Logo_2014.svg",
+    "license": "Public domain",
+    "artist": "Mondelēz International"
   }
 }
