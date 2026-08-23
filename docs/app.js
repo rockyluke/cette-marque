@@ -11,6 +11,7 @@ const elements = {
   grid: document.querySelector("#brand-grid"),
   filters: document.querySelector("#country-filters"),
   brandCount: document.querySelector("#brand-count"),
+  brandCountLabel: document.querySelector("#brand-count-label"),
   lastChecked: document.querySelector("#last-checked"),
   empty: document.querySelector("#empty-state"),
   reset: document.querySelector("#reset-search"),
@@ -87,12 +88,87 @@ function brandId(value) {
   return normalize(value).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
 
+const countryContinents = {
+  "🇩🇿": "Afrique", "🇿🇦": "Afrique", "🇹🇳": "Afrique", "🇲🇦": "Afrique", "🇪🇬": "Afrique", "🇲🇬": "Afrique",
+  "🇦🇺": "Océanie", "🇳🇿": "Océanie",
+  "🇦🇹": "Europe", "🇩🇪": "Europe", "🇧🇪": "Europe", "🇧🇬": "Europe", "🇩🇰": "Europe",
+  "🇪🇸": "Europe", "🇫🇮": "Europe", "🇫🇷": "Europe", "🇮🇪": "Europe", "🇮🇸": "Europe",
+  "🇮🇹": "Europe", "🇱🇺": "Europe", "🇲🇨": "Europe", "🇳🇴": "Europe", "🇳🇱": "Europe",
+  "🇵🇱": "Europe", "🇵🇹": "Europe", "🇬🇧": "Europe", "🇸🇪": "Europe", "🇨🇭": "Europe",
+  "🇨🇿": "Europe", "🇹🇷": "Asie", "🇷🇴": "Europe", "🇭🇺": "Europe", "🇪🇪": "Europe",
+  "🇲🇹": "Europe", "🇲🇩": "Europe", "🇸🇰": "Europe",
+  "🇨🇦": "Amérique", "🇺🇸": "Amérique", "🇲🇽": "Amérique", "🇧🇷": "Amérique", "🇦🇷": "Amérique",
+  "🇨🇳": "Asie", "🇭🇰": "Asie", "🇮🇳": "Asie", "🇯🇵": "Asie", "🇵🇰": "Asie", "🇹🇼": "Asie",
+  "🇻🇳": "Asie", "🇵🇭": "Asie", "🇮🇱": "Asie", "🇧🇩": "Asie", "🇰🇭": "Asie", "🇱🇰": "Asie",
+};
+
+const countryNames = {
+  "afrique du sud": "🇿🇦", algerie: "🇩🇿", tunisie: "🇹🇳", maroc: "🇲🇦", egypte: "🇪🇬", madagascar: "🇲🇬",
+  australie: "🇦🇺", "nouvelle-zelande": "🇳🇿", autriche: "🇦🇹", allemagne: "🇩🇪", belgique: "🇧🇪",
+  bulgarie: "🇧🇬", danemark: "🇩🇰", espagne: "🇪🇸", finlande: "🇫🇮", france: "🇫🇷", irlande: "🇮🇪",
+  islande: "🇮🇸", italie: "🇮🇹", luxembourg: "🇱🇺", monaco: "🇲🇨", norvege: "🇳🇴", "pays-bas": "🇳🇱",
+  pologne: "🇵🇱", portugal: "🇵🇹", "royaume-uni": "🇬🇧", suede: "🇸🇪", suisse: "🇨🇭", tchequie: "🇨🇿",
+  turquie: "🇹🇷", roumanie: "🇷🇴", hongrie: "🇭🇺", estonie: "🇪🇪", malte: "🇲🇹", moldavie: "🇲🇩",
+  slovaquie: "🇸🇰", canada: "🇨🇦", "etats-unis": "🇺🇸", mexique: "🇲🇽", bresil: "🇧🇷", argentine: "🇦🇷",
+  chine: "🇨🇳", "hong-kong": "🇭🇰", inde: "🇮🇳", japon: "🇯🇵", pakistan: "🇵🇰", taiwan: "🇹🇼",
+  vietnam: "🇻🇳", philippines: "🇵🇭", israel: "🇮🇱", bangladesh: "🇧🇩", cambodge: "🇰🇭", "sri-lanka": "🇱🇰",
+};
+
+function mentionsCountry(normalizedValue, country) {
+  return `-${normalizedValue}-`.includes(`-${country}-`);
+}
+
+function firstCountry(value) {
+  const flag = Object.keys(countryContinents).find((candidate) => value.includes(candidate));
+  if (flag) return flag;
+  const normalized = normalize(value).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  return Object.entries(countryNames).find(([name]) => mentionsCountry(normalized, name))?.[1] || null;
+}
+
+function manufacturingGeography(value) {
+  const normalized = normalize(value).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  const countries = new Set(Object.keys(countryContinents).filter((flag) => value.includes(flag)));
+  Object.entries(countryNames).forEach(([name, flag]) => {
+    if (mentionsCountry(normalized, name)) countries.add(flag);
+  });
+  const continents = new Set([...countries].map((flag) => countryContinents[flag]));
+  if (value.includes("🇪🇺") || normalized.includes("europe")) continents.add("Europe");
+  if (normalized.includes("asie")) continents.add("Asie");
+  if (normalized.includes("afrique")) continents.add("Afrique");
+  if (normalized.includes("amerique")) continents.add("Amérique");
+  if (normalized.includes("oceanie")) continents.add("Océanie");
+  const broadRegion = value.includes("🇪🇺")
+    || ["europe", "asie", "afrique", "amerique", "oceanie"].some((region) => normalized.includes(region));
+  return { countries, continents, broadRegion };
+}
+
+function anchoringScore(brand) {
+  const headquarters = firstCountry(brand.headquarters);
+  const ownership = firstCountry(brand.ownership);
+  const manufacturing = manufacturingGeography(brand.manufacturing);
+  if (!headquarters || !ownership || manufacturing.continents.size === 0) return "?";
+
+  const headquartersContinent = countryContinents[headquarters];
+  const ownershipContinent = countryContinents[ownership];
+  const continents = new Set([headquartersContinent, ownershipContinent, ...manufacturing.continents]);
+  const manufacturingOnlyInHeadquarters = manufacturing.countries.size > 0
+    && [...manufacturing.countries].every((country) => country === headquarters)
+    && manufacturing.continents.size === 1
+    && !manufacturing.broadRegion;
+
+  if (headquarters === ownership && manufacturingOnlyInHeadquarters) return "A";
+  if (headquarters === ownership && continents.size === 1) return "B";
+  if (continents.size === 1) return "C";
+  if (continents.size === 2) return "D";
+  return "E";
+}
+
 function ownedBrands(parent) {
   const parentAnchor = `#${brandId(parent.name)}`;
   return state.brands.filter((brand) => {
     const links = [...brand.ownershipMarkdown.matchAll(/\[[^\]]+\]\((#[^)]+)\)/g)];
     return links.some(([, href]) => `#${brandId(href.slice(1))}` === parentAnchor);
-  });
+  }).sort((a, b) => a.name.localeCompare(b.name, "fr", { sensitivity: "base" }));
 }
 
 function matches(brand) {
@@ -142,16 +218,24 @@ function createCard(brand, index) {
     });
     brandsRow.hidden = false;
   }
+  const score = anchoringScore(brand);
+  const scoreBadge = fragment.querySelector(".score-badge");
+  scoreBadge.textContent = score;
+  scoreBadge.classList.add(score === "?" ? "score-unknown" : `score-${score.toLowerCase()}`);
+  scoreBadge.title = score === "?" ? "Données géographiques insuffisantes" : `Indice d’ancrage ${score}`;
   fragment.querySelector(".brand-link").href = brand.website;
   return fragment;
 }
 
 function render() {
-  const visible = state.brands.filter(matches);
+  const visible = state.brands.filter(matches)
+    .sort((a, b) => a.name.localeCompare(b.name, "fr", { sensitivity: "base" }));
   elements.grid.replaceChildren(...visible.map(createCard));
   elements.grid.setAttribute("aria-busy", "false");
   elements.empty.hidden = visible.length !== 0;
   elements.grid.hidden = visible.length === 0;
+  elements.brandCount.textContent = visible.length;
+  elements.brandCountLabel.textContent = visible.length === 1 ? "marque" : "marques";
 
   document.querySelectorAll(".filter-button").forEach((button) => {
     button.setAttribute("aria-pressed", String(button.dataset.country === state.country));
@@ -188,10 +272,10 @@ async function init() {
     sourceUrl.searchParams.set("v", Date.now().toString());
     const response = await fetch(sourceUrl, { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    state.brands = parseBrands(await response.text());
+    state.brands = parseBrands(await response.text())
+      .sort((a, b) => a.name.localeCompare(b.name, "fr", { sensitivity: "base" }));
     const logoResponse = await fetch("assets/logos/logos.json", { cache: "no-store" });
     if (logoResponse.ok) state.logos = await logoResponse.json();
-    elements.brandCount.textContent = state.brands.length;
     const latest = state.brands.map(({ checked }) => checked).sort().at(-1);
     elements.lastChecked.textContent = formatDate(latest);
     elements.lastChecked.dateTime = latest;

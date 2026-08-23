@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Méthode de calcul de l’indice d’ancrage géographique des marques." />
+    <meta name="theme-color" content="#f4f1e8" />
+    <title>Indice d’ancrage — Cette marque ?</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css?v=20260823-1" />
+  </head>
+  <body>
+    <header class="site-header"><a class="wordmark" href="./">← Cette marque ?</a></header>
+    <main class="score-page">
+      <p class="eyebrow">Comprendre le score</p>
+      <h1>L’indice d’ancrage</h1>
+      <p class="intro">Une lecture synthétique de la distance géographique entre le siège d’une marque, son capital et ses principaux lieux de fabrication.</p>
+
+      <div class="score-scale" role="img" aria-label="Échelle de l’indice d’ancrage, de A à E">
+        <span class="score-a">A</span><span class="score-b">B</span><span class="score-c">C</span><span class="score-d">D</span><span class="score-e">E</span>
+      </div>
+
+      <h2>Comment lire les lettres ?</h2>
+      <ul class="score-definitions">
+        <li><span class="score-badge score-a">A</span><span>Le siège, le capital et les lieux de fabrication documentés sont dans le même pays.</span></li>
+        <li><span class="score-badge score-b">B</span><span>Le siège et le capital sont dans le même pays, tandis que la fabrication reste dans le même continent.</span></li>
+        <li><span class="score-badge score-c">C</span><span>Le siège, le capital et la fabrication se trouvent dans un même continent, mais sans l’ancrage national requis pour A ou B.</span></li>
+        <li><span class="score-badge score-d">D</span><span>Les trois dimensions documentées sont réparties sur deux continents.</span></li>
+        <li><span class="score-badge score-e">E</span><span>Les trois dimensions documentées couvrent au moins trois continents.</span></li>
+        <li><span class="score-badge score-unknown">?</span><span>Les lieux de fabrication sont mondiaux, variables ou insuffisamment documentés pour calculer un score fiable.</span></li>
+      </ul>
+
+      <h2>Le modèle géographique</h2>
+      <p>Le calcul suit le <a href="https://fr.wikipedia.org/wiki/Continent" target="_blank" rel="noreferrer">modèle à six continents</a> : Afrique, Amérique, Antarctique, Asie, Europe et Océanie. Plusieurs pays de fabrication peuvent être pris en compte pour une même marque. Dans ce cas, tous les continents explicitement documentés participent au résultat.</p>
+
+      <h2>D’où viennent les informations ?</h2>
+      <p>Le siège, le capital et la fabrication proviennent de la base ouverte <a href="https://github.com/rockyluke/cette-marque/blob/main/README.md" target="_blank" rel="noreferrer">Cette marque ? sur GitHub</a>. Elle rassemble des informations recoupées à partir des sites officiels des marques et des groupes, de leurs publications financières, de registres publics et de sources institutionnelles. La date de dernière vérification figure sur chaque fiche.</p>
+      <p class="method-note"><strong>Ce que l’indice ne mesure pas.</strong> Ce score n’évalue ni la qualité, ni l’impact environnemental, ni les conditions sociales, ni la distance jusqu’à l’acheteur. Une bonne lettre traduit uniquement une plus grande concentration géographique des trois dimensions étudiées. Elle ne constitue pas une recommandation d’achat.</p>
+    </main>
+    <footer>
+      <p>Une base artisanale, sans cookie, ouverte et perfectible.</p>
+      <p><a href="./">Revenir aux marques</a> · <a href="https://github.com/rockyluke/cette-marque" target="_blank" rel="noreferrer">Contribuer sur GitHub ↗</a></p>
+    </footer>
+  </body>
+</html>

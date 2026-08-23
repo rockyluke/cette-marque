@@ -141,7 +141,7 @@ h1 em { color: var(--accent); font-weight: 400; }
 .search {
   display: flex;
   align-items: center;
-  width: min(720px, 100%);
+  width: 100%;
   min-height: 66px;
   padding: 0 19px;
   border: 1px solid var(--ink);
@@ -274,6 +274,41 @@ kbd {
 .brand-card dd { margin: 0; font-size: 0.83rem; line-height: 1.45; }
 .brand-card dd a { color: inherit; font-weight: 700; text-decoration-color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 3px; }
 .brand-card dd a:hover { color: var(--accent); }
+.score-row { align-items: center !important; }
+.score-badge {
+  display: inline-grid;
+  place-items: center;
+  width: 34px;
+  height: 28px;
+  border-radius: 6px;
+  color: #fff !important;
+  font-size: 0.9rem;
+  font-weight: 900 !important;
+  line-height: 1;
+  text-decoration: none !important;
+  box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.13);
+}
+.score-a { background: #16844b; }
+.score-b { background: #75a936; }
+.score-c { color: #2a2a21 !important; background: #f2c94c; }
+.score-d { background: #e8892d; }
+.score-e { background: #d74a3a; }
+.score-unknown { background: #7c8581; }
+
+.score-page { padding: 70px 0 100px; }
+.score-page h1 { white-space: normal; font-size: clamp(2.8rem, 7vw, 5.5rem); }
+.score-page h2 { margin: 62px 0 18px; font-family: Georgia, serif; font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 400; letter-spacing: -0.035em; }
+.score-page p, .score-page li { max-width: 780px; line-height: 1.72; }
+.score-page .intro { max-width: 900px; }
+.score-scale { display: flex; width: min(620px, 100%); margin: 42px 0; }
+.score-scale span { display: grid; flex: 1; place-items: center; min-height: 72px; color: #fff; font-size: 1.75rem; font-weight: 900; }
+.score-scale span:first-child { border-radius: 13px 0 0 13px; }
+.score-scale span:last-child { border-radius: 0 13px 13px 0; }
+.score-scale .score-c { color: #2a2a21; }
+.score-definitions { display: grid; gap: 12px; margin: 28px 0 0; padding: 0; list-style: none; }
+.score-definitions li { display: grid; grid-template-columns: 42px minmax(0, 1fr); align-items: start; gap: 14px; }
+.score-definitions .score-badge { margin-top: 1px; }
+.method-note { margin-top: 38px; padding: 22px 24px; border: 1px solid var(--line); border-radius: 16px; background: var(--card); }
 .brand-link { display: flex; align-items: center; justify-content: space-between; margin-top: auto; padding-top: 16px; border-top: 1px solid var(--line); color: var(--ink); text-decoration: none; font-size: 0.8rem; font-weight: 750; }
 .brand-link span { color: var(--accent); font-size: 1rem; }
 
