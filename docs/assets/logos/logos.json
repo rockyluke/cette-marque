@@ -1050,5 +1050,19 @@
     "source": "https://commons.wikimedia.org/wiki/File:Kimberly-Clark_logo.svg",
     "license": "Public domain",
     "artist": "Kimberly-Clark"
+  },
+  "Lindt": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Lindt_sprungli_textlogo.png",
+    "commons_title": "File:Lindt sprungli textlogo.png",
+    "source": "https://commons.wikimedia.org/wiki/File:Lindt_sprungli_textlogo.png",
+    "license": "Public domain",
+    "artist": "Unknown"
+  },
+  "Lindt & Sprüngli": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Lindt_sprungli_textlogo.png",
+    "commons_title": "File:Lindt sprungli textlogo.png",
+    "source": "https://commons.wikimedia.org/wiki/File:Lindt_sprungli_textlogo.png",
+    "license": "Public domain",
+    "artist": "Unknown"
   }
 }
