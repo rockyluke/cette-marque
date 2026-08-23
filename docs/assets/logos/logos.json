@@ -1078,5 +1078,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:KraftHeinz.svg",
     "license": "Public domain",
     "artist": "Kraft Heinz"
+  },
+  "Groupement Mousquetaires": {
+    "file": "groupement-mousquetaires.svg",
+    "title": "Site officiel du Groupement Mousquetaires",
+    "source": "https://www.mousquetaires.com/wp-content/uploads/2025/06/logo-groupement.svg",
+    "license": "Logo officiel",
+    "artist": "Groupement Mousquetaires"
   }
 }
