@@ -987,5 +987,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Pillsbury_company_logo.svg",
     "license": "Public domain",
     "artist": "Unknown"
+  },
+  "Saint Louis": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Logo_saint_louis_sucre.svg",
+    "commons_title": "File:Logo saint louis sucre.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Logo_saint_louis_sucre.svg",
+    "license": "Public domain",
+    "artist": "Saint Louis Sucre"
   }
 }
