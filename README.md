@@ -478,6 +478,12 @@ Une base ouverte pour retrouver le siège, le capital et les lieux de fabricatio
 | ------------- | ------------------------------- | ------------ | ---------------------------------- | ------------- | ------------ |
 | Yunus Textile | https://www.yunustextile.com/   | 🇵🇰 Pakistan  | 🇵🇰 Pakistanais (entreprise privée) | 🇵🇰 Pakistan   | 2026-08-05   |
 
+## Pologne 🇵🇱
+
+| Brand | Website            | Headquarters | Ownership                       | Manufacturing | Last checked |
+| ----- | ------------------ | ------------ | ------------------------------- | ------------- | ------------ |
+| Tylko | https://tylko.com/ | 🇵🇱 Pologne   | 🇵🇱 Polonais (entreprise privée) | 🇵🇱 Pologne    | 2026-08-23   |
+
 ## Royaume-Uni 🇬🇧
 
 | Brand                      | Website                                                                          | Headquarters   | Ownership                                                                                                             | Manufacturing                                                      | Last checked |
