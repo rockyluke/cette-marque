@@ -100,12 +100,13 @@ Une base ouverte pour retrouver le siège, le capital et les lieux de fabricatio
 
 ## Danemark 🇩🇰
 
-| Brand           | Website                         | Headquarters | Ownership                                                                                                            | Manufacturing                                    | Last checked |
-| --------------- | ------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ | ------------ |
-| Carlsberg Group | https://www.carlsberggroup.com/ | 🇩🇰 Danemark  | 🇩🇰 Danois (société cotée au [Nasdaq Copenhagen](https://www.nasdaq.com/european-market-activity/shares/carlsberg-b)) | 🌍 Réseau industriel mondial                      | 2026-08-15   |
-| LEGO            | https://www.lego.com/           | 🇩🇰 Danemark  | 🇩🇰 Danois (famille Kirk Kristiansen et LEGO Foundation)                                                       | 🌍 Danemark, Hongrie, Tchéquie, Mexique, Chine et Vietnam | 2026-08-21   |
-| Frient          | https://www.frient.com/         | 🇩🇰 Danemark  | 🇩🇰 Danois ([Onics](#onics))                                                                                          | 🌏 Asie, notamment Thaïlande, selon les produits  | 2026-08-03   |
-| Onics           | https://www.onics.com/          | 🇩🇰 Danemark  | 🇩🇰 Danois (entreprise privée)                                                                                        | 🌏 Asie, notamment Thaïlande, selon les produits  | 2026-08-03   |
+| Brand           | Website                         | Headquarters | Ownership                                                                                                            | Manufacturing                                                | Last checked |
+| --------------- | ------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ | ------------ |
+| BoConcept       | https://www.boconcept.com/      | 🇩🇰 Danemark  | 🇬🇧 Britannique ([3i Group](#3i-group))                                                                               | 🇪🇺 Plus de 90 % du mobilier produit au Danemark et en Europe | 2026-08-23   |
+| Carlsberg Group | https://www.carlsberggroup.com/ | 🇩🇰 Danemark  | 🇩🇰 Danois (société cotée au [Nasdaq Copenhagen](https://www.nasdaq.com/european-market-activity/shares/carlsberg-b)) | 🌍 Réseau industriel mondial                                  | 2026-08-15   |
+| LEGO            | https://www.lego.com/           | 🇩🇰 Danemark  | 🇩🇰 Danois (famille Kirk Kristiansen et LEGO Foundation)                                                              | 🌍 Danemark, Hongrie, Tchéquie, Mexique, Chine et Vietnam     | 2026-08-21   |
+| Frient          | https://www.frient.com/         | 🇩🇰 Danemark  | 🇩🇰 Danois ([Onics](#onics))                                                                                          | 🌏 Asie, notamment Thaïlande, selon les produits              | 2026-08-03   |
+| Onics           | https://www.onics.com/          | 🇩🇰 Danemark  | 🇩🇰 Danois (entreprise privée)                                                                                        | 🌏 Asie, notamment Thaïlande, selon les produits              | 2026-08-03   |
 
 ## Espagne 🇪🇸
 
