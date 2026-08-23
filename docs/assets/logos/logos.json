@@ -1022,5 +1022,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:K-Way_logo.svg",
     "license": "Public domain",
     "artist": "K-Way"
+  },
+  "NIVEA": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/NIVEA_logo_2021.svg",
+    "commons_title": "File:NIVEA logo 2021.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:NIVEA_logo_2021.svg",
+    "license": "Public domain",
+    "artist": "Beiersdorf AG"
   }
 }
