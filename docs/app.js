@@ -3,6 +3,7 @@ const state = {
   logos: {},
   query: "",
   country: "all",
+  score: "all",
 };
 
 const elements = {
@@ -10,6 +11,7 @@ const elements = {
   input: document.querySelector("#search-input"),
   grid: document.querySelector("#brand-grid"),
   filters: document.querySelector("#country-filters"),
+  scoreFilters: document.querySelector("#score-filters"),
   brandCount: document.querySelector("#brand-count"),
   brandCountLabel: document.querySelector("#brand-count-label"),
   lastChecked: document.querySelector("#last-checked"),
@@ -181,7 +183,11 @@ function matches(brand) {
   const query = normalize(state.query);
   const children = ownedBrands(brand).map(({ name }) => name);
   const haystack = normalize([brand.name, brand.type, brand.headquarters, brand.ownership, brand.manufacturing, ...children].join(" "));
-  return (!query || haystack.includes(query)) && (state.country === "all" || brand.headquarters === state.country);
+  const scoreEligible = brand.type === "Brand" || brand.type === "Industrial group";
+  const scoreMatches = state.score === "all" || (scoreEligible && anchoringScore(brand) === state.score);
+  return (!query || haystack.includes(query))
+    && (state.country === "all" || brand.headquarters === state.country)
+    && scoreMatches;
 }
 
 function formatDate(value) {
@@ -250,7 +256,10 @@ function render() {
   elements.brandCountLabel.textContent = visible.length === 1 ? "marque" : "marques";
 
   document.querySelectorAll(".filter-button").forEach((button) => {
-    button.setAttribute("aria-pressed", String(button.dataset.country === state.country));
+    const selected = button.dataset.country
+      ? button.dataset.country === state.country
+      : button.dataset.score === state.score;
+    button.setAttribute("aria-pressed", String(selected));
   });
 }
 
@@ -268,6 +277,27 @@ function renderFilters() {
     button.setAttribute("aria-pressed", String(value === state.country));
     button.addEventListener("click", () => {
       state.country = value;
+      render();
+    });
+    return button;
+  }));
+}
+
+function renderScoreFilters() {
+  const options = [
+    { label: "Tous les scores", value: "all" },
+    ...["A", "B", "C", "D", "E", "?"].map((score) => ({ label: score, value: score })),
+  ];
+  elements.scoreFilters.replaceChildren(...options.map(({ label, value }) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "filter-button score-filter-button";
+    button.dataset.score = value;
+    button.textContent = label;
+    if (value !== "all") button.classList.add(value === "?" ? "score-unknown" : `score-${value.toLowerCase()}`);
+    button.setAttribute("aria-pressed", String(value === state.score));
+    button.addEventListener("click", () => {
+      state.score = value;
       render();
     });
     return button;
@@ -293,6 +323,7 @@ async function init() {
     elements.lastChecked.textContent = formatDate(latest);
     elements.lastChecked.dateTime = latest;
     renderFilters();
+    renderScoreFilters();
     render();
   } catch (error) {
     elements.grid.setAttribute("aria-busy", "false");
@@ -309,6 +340,7 @@ elements.input.addEventListener("input", (event) => {
 elements.reset.addEventListener("click", () => {
   state.query = "";
   state.country = "all";
+  state.score = "all";
   elements.input.value = "";
   elements.input.focus();
   render();

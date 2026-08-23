@@ -7,8 +7,8 @@
     <meta name="theme-color" content="#f4f1e8" />
     <title>Cette marque ? — Origine des marques</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css?v=20260823-3" />
-    <script src="app.js?v=20260823-4" defer></script>
+    <link rel="stylesheet" href="styles.css?v=20260823-5" />
+    <script src="app.js?v=20260823-5" defer></script>
   </head>
   <body>
     <main>
@@ -33,6 +33,10 @@
 
       <section class="catalog" aria-label="Catalogue des marques">
         <div class="filters" id="country-filters" aria-label="Filtrer par pays"></div>
+        <div class="score-filter-group">
+          <span>Géo-score</span>
+          <div class="filters score-filters" id="score-filters" aria-label="Filtrer par Géo-score"></div>
+        </div>
         <div class="brand-grid" id="brand-grid" aria-busy="true"></div>
 
         <div class="empty-state" id="empty-state" hidden>

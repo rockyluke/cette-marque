@@ -205,11 +205,37 @@ kbd {
 .filters {
   display: flex;
   gap: 8px;
-  margin: 0 0 30px;
+  margin: 0 0 12px;
   padding-bottom: 8px;
   overflow-x: auto;
   scrollbar-width: thin;
 }
+
+.score-filter-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.score-filter-group > span {
+  flex: 0 0 auto;
+  color: var(--muted);
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.score-filters { margin: 0; padding-bottom: 0; }
+.score-filter-button:not([data-score="all"]) {
+  min-width: 39px;
+  border-color: transparent;
+  color: #fff;
+}
+.score-filter-button.score-c { color: #2a2a21; }
+.score-filter-button[aria-pressed="true"] { box-shadow: inset 0 0 0 2px var(--paper), 0 0 0 1px var(--ink); }
+.score-filter-button[data-score="all"][aria-pressed="true"] { box-shadow: none; }
 
 .filter-button {
   flex: 0 0 auto;
