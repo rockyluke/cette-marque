@@ -33,9 +33,10 @@ function parseBrands(markdown) {
     .split("\n")
     .filter((line) => line.startsWith("| "))
     .map((line) => line.slice(1, -1).split("|").map((cell) => cell.trim()))
-    .filter((cells) => cells.length === 6 && cells[0] !== "Brand" && !cells[0].startsWith("---"))
-    .map(([name, website, headquarters, ownership, manufacturing, checked]) => ({
+    .filter((cells) => cells.length === 7 && cells[0] !== "Brand" && !cells[0].startsWith("---"))
+    .map(([name, type, website, headquarters, ownership, manufacturing, checked]) => ({
       name: plainText(name),
+      type: plainText(type),
       website,
       headquarters: plainText(headquarters),
       ownership: plainText(ownership),
@@ -174,7 +175,7 @@ function ownedBrands(parent) {
 function matches(brand) {
   const query = normalize(state.query);
   const children = ownedBrands(brand).map(({ name }) => name);
-  const haystack = normalize([brand.name, brand.headquarters, brand.ownership, brand.manufacturing, ...children].join(" "));
+  const haystack = normalize([brand.name, brand.type, brand.headquarters, brand.ownership, brand.manufacturing, ...children].join(" "));
   return (!query || haystack.includes(query)) && (state.country === "all" || brand.headquarters === state.country);
 }
 
@@ -218,11 +219,17 @@ function createCard(brand, index) {
     });
     brandsRow.hidden = false;
   }
-  const score = anchoringScore(brand);
-  const scoreBadge = fragment.querySelector(".score-badge");
-  scoreBadge.textContent = score;
-  scoreBadge.classList.add(score === "?" ? "score-unknown" : `score-${score.toLowerCase()}`);
-  scoreBadge.title = score === "?" ? "Données géographiques insuffisantes" : `Géo-score ${score}`;
+  const scoreRow = fragment.querySelector(".score-row");
+  const scoreEligible = brand.type === "Brand" || brand.type === "Industrial group";
+  if (scoreEligible) {
+    const score = anchoringScore(brand);
+    const scoreBadge = scoreRow.querySelector(".score-badge");
+    scoreBadge.textContent = score;
+    scoreBadge.classList.add(score === "?" ? "score-unknown" : `score-${score.toLowerCase()}`);
+    scoreBadge.title = score === "?" ? "Données géographiques insuffisantes" : `Géo-score ${score}`;
+  } else {
+    scoreRow.hidden = true;
+  }
   fragment.querySelector(".brand-link").href = brand.website;
   return fragment;
 }
