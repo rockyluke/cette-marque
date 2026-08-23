@@ -1064,5 +1064,19 @@
     "source": "https://commons.wikimedia.org/wiki/File:Lindt_sprungli_textlogo.png",
     "license": "Public domain",
     "artist": "Unknown"
+  },
+  "Heinz": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Heinz-logo.svg",
+    "commons_title": "File:Heinz-logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Heinz-logo.svg",
+    "license": "Public domain",
+    "artist": "H. J. Heinz Company"
+  },
+  "Kraft Heinz": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/KraftHeinz.svg",
+    "commons_title": "File:KraftHeinz.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:KraftHeinz.svg",
+    "license": "Public domain",
+    "artist": "Kraft Heinz"
   }
 }
