@@ -502,6 +502,7 @@ Une base ouverte pour retrouver le siège, le capital et les lieux de fabricatio
 | Electrolux Group | https://www.electroluxgroup.com/ | 🇸🇪 Suède     | 🇸🇪 Suédois (société cotée au [Nasdaq Stockholm](https://www.nasdaq.com/european-market-activity/shares/electrolux-b)) | 🌍 32 usines sur plusieurs continents                       | 2026-08-16   |
 | Husqvarna        | https://www.husqvarnagroup.com/  | 🇸🇪 Suède     | 🇸🇪 Suédois (société cotée au [Nasdaq Stockholm](https://www.nasdaq.com/european-market-activity/shares/husq-b))       | 🌍 30 sites de production dans 13 pays                      | 2026-08-03   |
 | Oatly            | https://www.oatly.com/           | 🇸🇪 Suède     | 🇸🇪 Suédois (société cotée au [Nasdaq](https://www.nasdaq.com/market-activity/stocks/otly))                            | 🌍 Europe, États-Unis et Asie, sites propres et partenaires | 2026-08-17   |
+| Pågen            | https://www.pagen.com/           | 🇸🇪 Suède     | 🇸🇪 Suédois (entreprise familiale)                                                                                    | 🇸🇪 Suède (Malmö et Göteborg)                               | 2026-08-23   |
 | Yubico           | https://www.yubico.com/          | 🇸🇪 Suède     | 🇸🇪 Suédois (société cotée au [Nasdaq Stockholm](https://www.nasdaq.com/european-market-activity/shares/yubico))       | 🇸🇪 Suède et 🇺🇸 États-Unis                                  | 2026-08-03   |
 
 ## Suisse 🇨🇭
