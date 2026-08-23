@@ -1015,5 +1015,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Kleenex.svg",
     "license": "Public domain",
     "artist": "Kleenex"
+  },
+  "K-Way": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/K-Way_logo.svg",
+    "commons_title": "File:K-Way logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:K-Way_logo.svg",
+    "license": "Public domain",
+    "artist": "K-Way"
   }
 }
