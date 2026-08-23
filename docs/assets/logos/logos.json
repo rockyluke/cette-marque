@@ -973,5 +973,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:H%C3%A4agen-Dazs_Logo.svg",
     "license": "Public domain",
     "artist": "Häagen-Dazs"
+  },
+  "Candia": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Logo_marque_Candia.png",
+    "commons_title": "File:Logo marque Candia.png",
+    "source": "https://commons.wikimedia.org/wiki/File:Logo_marque_Candia.png",
+    "license": "CC BY-SA 4.0",
+    "artist": "ElizavetaHa"
   }
 }
