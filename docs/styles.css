@@ -321,6 +321,12 @@ kbd {
 .score-d { background: #e8892d; }
 .score-e { background: #d74a3a; }
 .score-unknown { background: #7c8581; }
+.score-filter-button.score-a[aria-pressed="true"] { background: #16844b; }
+.score-filter-button.score-b[aria-pressed="true"] { background: #75a936; }
+.score-filter-button.score-c[aria-pressed="true"] { color: #2a2a21; background: #f2c94c; }
+.score-filter-button.score-d[aria-pressed="true"] { background: #e8892d; }
+.score-filter-button.score-e[aria-pressed="true"] { background: #d74a3a; }
+.score-filter-button.score-unknown[aria-pressed="true"] { background: #7c8581; }
 
 .score-page { padding: 70px 0 100px; }
 .score-page h1 { white-space: normal; font-size: clamp(2.8rem, 7vw, 5.5rem); }
