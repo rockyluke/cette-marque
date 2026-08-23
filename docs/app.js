@@ -222,7 +222,7 @@ function createCard(brand, index) {
   const scoreBadge = fragment.querySelector(".score-badge");
   scoreBadge.textContent = score;
   scoreBadge.classList.add(score === "?" ? "score-unknown" : `score-${score.toLowerCase()}`);
-  scoreBadge.title = score === "?" ? "Données géographiques insuffisantes" : `Indice d’ancrage ${score}`;
+  scoreBadge.title = score === "?" ? "Données géographiques insuffisantes" : `Géo-score ${score}`;
   fragment.querySelector(".brand-link").href = brand.website;
   return fragment;
 }

@@ -298,7 +298,7 @@ kbd {
 .score-page { padding: 70px 0 100px; }
 .score-page h1 { white-space: normal; font-size: clamp(2.8rem, 7vw, 5.5rem); }
 .score-page h2 { margin: 62px 0 18px; font-family: Georgia, serif; font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 400; letter-spacing: -0.035em; }
-.score-page p, .score-page li { max-width: 780px; line-height: 1.72; }
+.score-page p, .score-page li { max-width: none; line-height: 1.72; }
 .score-page .intro { max-width: 900px; }
 .score-scale { display: flex; width: min(620px, 100%); margin: 42px 0; }
 .score-scale span { display: grid; flex: 1; place-items: center; min-height: 72px; color: #fff; font-size: 1.75rem; font-weight: 900; }
