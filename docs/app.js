@@ -281,6 +281,7 @@ function countryName(value) {
 async function init() {
   try {
     const sourceUrl = new URL("https://raw.githubusercontent.com/rockyluke/cette-marque/main/README.md");
+    sourceUrl.searchParams.set("schema", "2");
     sourceUrl.searchParams.set("v", Date.now().toString());
     const response = await fetch(sourceUrl, { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
