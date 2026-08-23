@@ -213,7 +213,7 @@ kbd {
 
 .filter-group {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 12px;
 }
 
@@ -227,6 +227,7 @@ kbd {
 
 .filter-group > span {
   flex: 0 0 auto;
+  margin-top: 12px;
   color: var(--muted);
   font-size: 0.7rem;
   font-weight: 800;
