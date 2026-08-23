@@ -211,14 +211,21 @@ kbd {
   scrollbar-width: thin;
 }
 
-.score-filter-group {
+.filter-group {
   display: flex;
   align-items: center;
   gap: 12px;
+}
+
+.country-filter-group {
+  margin-bottom: 12px;
+}
+
+.score-filter-group {
   margin-bottom: 30px;
 }
 
-.score-filter-group > span {
+.filter-group > span {
   flex: 0 0 auto;
   color: var(--muted);
   font-size: 0.7rem;
@@ -227,6 +234,7 @@ kbd {
   text-transform: uppercase;
 }
 
+.country-filters { margin: 0; padding-bottom: 8px; }
 .score-filters { margin: 0; padding-bottom: 0; }
 .score-filter-button:not([data-score="all"]) {
   min-width: 39px;
