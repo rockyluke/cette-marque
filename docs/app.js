@@ -33,17 +33,22 @@ function parseBrands(markdown) {
     .split("\n")
     .filter((line) => line.startsWith("| "))
     .map((line) => line.slice(1, -1).split("|").map((cell) => cell.trim()))
-    .filter((cells) => cells.length === 7 && cells[0] !== "Brand" && !cells[0].startsWith("---"))
-    .map(([name, type, website, headquarters, ownership, manufacturing, checked]) => ({
-      name: plainText(name),
-      type: plainText(type),
-      website,
-      headquarters: plainText(headquarters),
-      ownership: plainText(ownership),
-      ownershipMarkdown: ownership,
-      manufacturing: plainText(manufacturing),
-      checked,
-    }));
+    .filter((cells) => (cells.length === 6 || cells.length === 7) && cells[0] !== "Brand" && !cells[0].startsWith("---"))
+    .map((cells) => {
+      const [name, type, website, headquarters, ownership, manufacturing, checked] = cells.length === 7
+        ? cells
+        : [cells[0], "Brand", ...cells.slice(1)];
+      return {
+        name: plainText(name),
+        type: plainText(type),
+        website,
+        headquarters: plainText(headquarters),
+        ownership: plainText(ownership),
+        ownershipMarkdown: ownership,
+        manufacturing: plainText(manufacturing),
+        checked,
+      };
+    });
 }
 
 function renderMarkdownLinks(element, markdown) {
