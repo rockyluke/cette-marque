@@ -183,7 +183,7 @@ function matches(brand) {
   const query = normalize(state.query);
   const children = ownedBrands(brand).map(({ name }) => name);
   const haystack = normalize([brand.name, brand.type, brand.headquarters, brand.ownership, brand.manufacturing, ...children].join(" "));
-  const scoreEligible = brand.type === "Brand" || brand.type === "Industrial group";
+  const scoreEligible = brand.type === "Brand";
   const scoreMatches = state.score === "all" || (scoreEligible && anchoringScore(brand) === state.score);
   return (!query || haystack.includes(query))
     && (state.country === "all" || brand.headquarters === state.country)
@@ -231,7 +231,7 @@ function createCard(brand, index) {
     brandsRow.hidden = false;
   }
   const scoreRow = fragment.querySelector(".score-row");
-  const scoreEligible = brand.type === "Brand" || brand.type === "Industrial group";
+  const scoreEligible = brand.type === "Brand";
   if (scoreEligible) {
     const score = anchoringScore(brand);
     const scoreBadge = scoreRow.querySelector(".score-badge");
