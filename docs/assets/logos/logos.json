@@ -966,5 +966,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Chupa_Chups_logo.svg",
     "license": "Public domain",
     "artist": "Chupa Chups"
+  },
+  "Häagen-Dazs": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/H%C3%A4agen-Dazs_Logo.svg",
+    "commons_title": "File:Häagen-Dazs Logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:H%C3%A4agen-Dazs_Logo.svg",
+    "license": "Public domain",
+    "artist": "Häagen-Dazs"
   }
 }
