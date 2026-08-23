@@ -1008,5 +1008,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Logo_Lustucru.jpg",
     "license": "CC BY-SA 4.0",
     "artist": "Lustucru"
+  },
+  "Kleenex": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Kleenex.svg",
+    "commons_title": "File:Kleenex.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Kleenex.svg",
+    "license": "Public domain",
+    "artist": "Kleenex"
   }
 }
