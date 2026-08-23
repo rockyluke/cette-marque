@@ -1029,5 +1029,26 @@
     "source": "https://commons.wikimedia.org/wiki/File:NIVEA_logo_2021.svg",
     "license": "Public domain",
     "artist": "Beiersdorf AG"
+  },
+  "BasicNet": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BasicNet_logo.svg",
+    "commons_title": "File:BasicNet logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:BasicNet_logo.svg",
+    "license": "Public domain",
+    "artist": "Gb89.2"
+  },
+  "Beiersdorf": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Beiersdorf_Logo.svg",
+    "commons_title": "File:Beiersdorf Logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Beiersdorf_Logo.svg",
+    "license": "Public domain",
+    "artist": "Beiersdorf AG"
+  },
+  "Kimberly-Clark": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Kimberly-Clark_logo.svg",
+    "commons_title": "File:Kimberly-Clark logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Kimberly-Clark_logo.svg",
+    "license": "Public domain",
+    "artist": "Kimberly-Clark"
   }
 }
