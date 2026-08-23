@@ -1,4 +1,39 @@
 {
+  "Carambar & Co": {
+    "file": "carambar-and-co.png",
+    "title": "Site officiel Carambar & Co",
+    "source": "https://carambarco.com/wp-content/themes/carambarco/framework/website/assets/img/logo-rose.png",
+    "license": "Logo officiel",
+    "artist": "Carambar & Co"
+  },
+  "Carambar": {
+    "file": "carambar.webp",
+    "title": "Site officiel Carambar & Co",
+    "source": "https://carambarco.com/wp-content/uploads/2021/03/logo-carambar-276x276-1.webp",
+    "license": "Logo officiel",
+    "artist": "Carambar"
+  },
+  "Krema": {
+    "file": "krema.jpg",
+    "title": "Site officiel Carambar & Co",
+    "source": "https://carambarco.com/wp-content/uploads/2021/08/krema-logo.jpg",
+    "license": "Logo officiel",
+    "artist": "Krema"
+  },
+  "Malabar": {
+    "file": "malabar.png",
+    "title": "Site officiel Carambar & Co",
+    "source": "https://carambarco.com/wp-content/uploads/2024/04/Item-%E2%86%92-Link-%E2%86%92-logo-malabar-240x240-1.png.png",
+    "license": "Logo officiel",
+    "artist": "Malabar"
+  },
+  "Lutti": {
+    "file": "lutti.webp",
+    "title": "Site officiel Carambar & Co",
+    "source": "https://carambarco.com/wp-content/uploads/2021/03/logo-lutti-2026.webp",
+    "license": "Logo officiel",
+    "artist": "Lutti"
+  },
   "Superdry": {
     "file": "superdry.svg",
     "commons_title": "File:Superdry logo.svg",
