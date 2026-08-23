@@ -980,5 +980,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Logo_marque_Candia.png",
     "license": "CC BY-SA 4.0",
     "artist": "ElizavetaHa"
+  },
+  "Pillsbury": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Pillsbury_company_logo.svg",
+    "commons_title": "File:Pillsbury company logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Pillsbury_company_logo.svg",
+    "license": "Public domain",
+    "artist": "Unknown"
   }
 }
