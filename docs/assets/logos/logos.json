@@ -959,5 +959,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Yoplait_logo_2024.svg",
     "license": "Public domain",
     "artist": "Yoplait France"
+  },
+  "Chupa Chups": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Chupa_Chups_logo.svg",
+    "commons_title": "File:Chupa Chups logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Chupa_Chups_logo.svg",
+    "license": "Public domain",
+    "artist": "Chupa Chups"
   }
 }
