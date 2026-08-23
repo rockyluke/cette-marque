@@ -945,5 +945,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Oreo_Logo_2014.svg",
     "license": "Public domain",
     "artist": "Mondelēz International"
+  },
+  "Actimel": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Actimel_Logo.svg",
+    "commons_title": "File:Actimel Logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Actimel_Logo.svg",
+    "license": "Public domain",
+    "artist": "Danone"
   }
 }
