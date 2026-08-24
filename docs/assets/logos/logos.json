@@ -1,4 +1,95 @@
 {
+  "Mercedes-Benz": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Mercedes-Benz%20logo.svg",
+    "commons_title": "File:Mercedes-Benz logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_logo.svg",
+    "license": "Public domain",
+    "artist": "Mercedes-Benz"
+  },
+  "Mercedes-Benz Group": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Mercedes-Benz%20Group%20black.svg",
+    "commons_title": "File:Mercedes-Benz Group black.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Group_black.svg",
+    "license": "Public domain",
+    "artist": "Mercedes-Benz Group AG"
+  },
+  "Citroën": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Citroen%202022.svg",
+    "commons_title": "File:Citroen 2022.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Citroen_2022.svg",
+    "license": "Wikimedia Commons",
+    "artist": "Citroën"
+  },
+  "Stellantis": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Stellantis.svg",
+    "commons_title": "File:Stellantis.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Stellantis.svg",
+    "license": "Wikimedia Commons",
+    "artist": "Stellantis"
+  },
+  "Renault": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Renault%202021.svg",
+    "commons_title": "File:Renault 2021.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Renault_2021.svg",
+    "license": "Wikimedia Commons",
+    "artist": "Renault"
+  },
+  "Renault Group": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/2021%20Renault%20Group%20logo.svg",
+    "commons_title": "File:2021 Renault Group logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:2021_Renault_Group_logo.svg",
+    "license": "Public domain",
+    "artist": "Renault S.A."
+  },
+  "Nissan": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Nissan%202020%20logo.svg",
+    "commons_title": "File:Nissan 2020 logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Nissan_2020_logo.svg",
+    "license": "Public domain",
+    "artist": "Nissan Motor Corporation"
+  },
+  "Nissan Motor": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Nissan%20Motor%20Corporation%202020%20logo.svg",
+    "commons_title": "File:Nissan Motor Corporation 2020 logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Nissan_Motor_Corporation_2020_logo.svg",
+    "license": "Public domain",
+    "artist": "Nissan Motor Corporation"
+  },
+  "Volkswagen": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Volkswagen%20logo%202019.svg",
+    "commons_title": "File:Volkswagen logo 2019.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Volkswagen_logo_2019.svg",
+    "license": "Public domain",
+    "artist": "Volkswagen"
+  },
+  "Volkswagen Group": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Volkswagen%20Group%20Logo%202023.svg",
+    "commons_title": "File:Volkswagen Group Logo 2023.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Volkswagen_Group_Logo_2023.svg",
+    "license": "Public domain",
+    "artist": "Volkswagen AG"
+  },
+  "Ford": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ford%20logo.svg",
+    "commons_title": "File:Ford logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Ford_logo.svg",
+    "license": "Public domain",
+    "artist": "Ford Motor Company"
+  },
+  "Ford Motor": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ford%20logo%20flat.svg",
+    "commons_title": "File:Ford logo flat.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Ford_logo_flat.svg",
+    "license": "Public domain",
+    "artist": "Ford Motor Company"
+  },
+  "Fiat": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/FIAT%20logo%20%282020%29.svg",
+    "commons_title": "File:FIAT logo (2020).svg",
+    "source": "https://commons.wikimedia.org/wiki/File:FIAT_logo_(2020).svg",
+    "license": "Public domain",
+    "artist": "Fiat"
+  },
   "Darty": {
     "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Darty.svg",
     "commons_title": "File:Darty.svg",
