@@ -1302,5 +1302,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Alpine_logo.png",
     "license": "Public domain",
     "artist": "Alpine-Renault"
+  },
+  "TRYBA": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Logo%20Tryba.jpg",
+    "commons_title": "File:Logo Tryba.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Logo_Tryba.jpg",
+    "license": "Public domain",
+    "artist": "Tryba"
   }
 }
