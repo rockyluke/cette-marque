@@ -559,6 +559,12 @@ Une base ouverte pour retrouver le siège, le capital et les lieux de fabricatio
 | Bounty                     | Brand            | https://www.mars.com/fr-fr/our-brands/mars-snacking                              | 🇬🇧 Royaume-Uni | 🇺🇸 Américain ([Mars](#mars))                                                                                          | 🌍 Europe et autres sites de Mars Snacking                          | 2026-08-18   |
 | Ariel                      | Brand            | https://www.enviedeplus.com/marques/ariel                                        | 🇬🇧 Royaume-Uni | 🇺🇸 Américain ([Procter & Gamble](#procter--gamble))                                                                   | 🌍 Europe et autres sites de Procter & Gamble                       | 2026-08-18   |
 
+## Singapour 🇸🇬
+
+| Brand     | Type  | Website               | Headquarters | Ownership                                                        | Manufacturing | Last checked |
+| --------- | ----- | --------------------- | ------------ | ---------------------------------------------------------------- | ------------- | ------------ |
+| Secretlab | Brand | https://secretlab.eu/ | 🇸🇬 Singapour | 🇸🇬 Singapourien (entreprise privée contrôlée par ses fondateurs) | 🇨🇳 Chine     | 2026-08-24   |
+
 ## Suède 🇸🇪
 
 | Brand            | Type             | Website                          | Headquarters | Ownership                                                                                                               | Manufacturing                                               | Last checked |

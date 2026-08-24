@@ -1281,5 +1281,12 @@
     "source": "https://www.mousquetaires.com/wp-content/uploads/2025/06/logo-groupement.svg",
     "license": "Logo officiel",
     "artist": "Groupement Mousquetaires"
+  },
+  "Secretlab": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Transparent%20SecretLab%20Logo%28black%20font%29%28padded%29.png",
+    "commons_title": "File:Transparent SecretLab Logo(black font)(padded).png",
+    "source": "https://commons.wikimedia.org/wiki/File:Transparent_SecretLab_Logo(black_font)(padded).png",
+    "license": "Public domain",
+    "artist": "Ronaldrloh"
   }
 }

@@ -110,6 +110,7 @@ const countryContinents = {
   "🇨🇦": "Amérique", "🇺🇸": "Amérique", "🇲🇽": "Amérique", "🇧🇷": "Amérique", "🇦🇷": "Amérique",
   "🇨🇳": "Asie", "🇭🇰": "Asie", "🇮🇳": "Asie", "🇯🇵": "Asie", "🇵🇰": "Asie", "🇹🇼": "Asie",
   "🇻🇳": "Asie", "🇵🇭": "Asie", "🇮🇱": "Asie", "🇧🇩": "Asie", "🇰🇭": "Asie", "🇱🇰": "Asie",
+  "🇸🇬": "Asie",
 };
 
 const countryNames = {
@@ -122,6 +123,7 @@ const countryNames = {
   slovaquie: "🇸🇰", canada: "🇨🇦", "etats-unis": "🇺🇸", mexique: "🇲🇽", bresil: "🇧🇷", argentine: "🇦🇷",
   chine: "🇨🇳", "hong-kong": "🇭🇰", inde: "🇮🇳", japon: "🇯🇵", pakistan: "🇵🇰", taiwan: "🇹🇼",
   vietnam: "🇻🇳", philippines: "🇵🇭", israel: "🇮🇱", bangladesh: "🇧🇩", cambodge: "🇰🇭", "sri-lanka": "🇱🇰",
+  singapour: "🇸🇬",
 };
 
 function mentionsCountry(normalizedValue, country) {
