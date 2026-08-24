@@ -4,6 +4,8 @@ const state = {
   query: "",
   country: "all",
   score: "all",
+  cards: new Map(),
+  renderFrame: null,
 };
 
 const elements = {
@@ -171,21 +173,38 @@ function anchoringScore(brand) {
   return "E";
 }
 
-function ownedBrands(parent) {
-  const parentAnchor = `#${brandId(parent.name)}`;
-  return state.brands.filter((brand) => {
-    const links = [...brand.ownershipMarkdown.matchAll(/\[[^\]]+\]\((#[^)]+)\)/g)];
-    return links.some(([, href]) => `#${brandId(href.slice(1))}` === parentAnchor);
-  }).sort((a, b) => a.name.localeCompare(b.name, "fr", { sensitivity: "base" }));
+function prepareBrands() {
+  const brandsById = new Map(state.brands.map((brand) => [brandId(brand.name), brand]));
+
+  state.brands.forEach((brand) => {
+    brand.children = [];
+    brand.score = brand.type === "Brand" ? anchoringScore(brand) : null;
+  });
+
+  state.brands.forEach((brand) => {
+    for (const [, href] of brand.ownershipMarkdown.matchAll(/\[[^\]]+\]\((#[^)]+)\)/g)) {
+      const parent = brandsById.get(brandId(href.slice(1)));
+      if (parent) parent.children.push(brand);
+    }
+  });
+
+  state.brands.forEach((brand) => {
+    brand.children.sort((a, b) => a.name.localeCompare(b.name, "fr", { sensitivity: "base" }));
+    brand.searchText = normalize([
+      brand.name,
+      brand.type,
+      brand.headquarters,
+      brand.ownership,
+      brand.manufacturing,
+      ...brand.children.map(({ name }) => name),
+    ].join(" "));
+  });
 }
 
-function matches(brand) {
-  const query = normalize(state.query);
-  const children = ownedBrands(brand).map(({ name }) => name);
-  const haystack = normalize([brand.name, brand.type, brand.headquarters, brand.ownership, brand.manufacturing, ...children].join(" "));
+function matches(brand, query) {
   const scoreEligible = brand.type === "Brand";
-  const scoreMatches = state.score === "all" || (scoreEligible && anchoringScore(brand) === state.score);
-  return (!query || haystack.includes(query))
+  const scoreMatches = state.score === "all" || (scoreEligible && brand.score === state.score);
+  return (!query || brand.searchText.includes(query))
     && (state.country === "all" || brand.headquarters === state.country)
     && scoreMatches;
 }
@@ -217,7 +236,7 @@ function createCard(brand, index) {
   fragment.querySelector(".checked").dateTime = brand.checked;
   renderMarkdownLinks(fragment.querySelector(".ownership"), brand.ownershipMarkdown);
   fragment.querySelector(".manufacturing").textContent = brand.manufacturing;
-  const children = ownedBrands(brand);
+  const children = brand.children;
   if (children.length > 0) {
     const brandsRow = fragment.querySelector(".owned-brands");
     const brandsList = brandsRow.querySelector("dd");
@@ -233,7 +252,7 @@ function createCard(brand, index) {
   const scoreRow = fragment.querySelector(".score-row");
   const scoreEligible = brand.type === "Brand";
   if (scoreEligible) {
-    const score = anchoringScore(brand);
+    const score = brand.score;
     const scoreBadge = scoreRow.querySelector(".score-badge");
     scoreBadge.textContent = score;
     scoreBadge.classList.add(score === "?" ? "score-unknown" : `score-${score.toLowerCase()}`);
@@ -242,13 +261,16 @@ function createCard(brand, index) {
     scoreRow.hidden = true;
   }
   fragment.querySelector(".brand-link").href = brand.website;
-  return fragment;
+  return card;
 }
 
 function render() {
-  const visible = state.brands.filter(matches)
-    .sort((a, b) => a.name.localeCompare(b.name, "fr", { sensitivity: "base" }));
-  elements.grid.replaceChildren(...visible.map(createCard));
+  const query = normalize(state.query);
+  const visible = state.brands.filter((brand) => matches(brand, query));
+  elements.grid.replaceChildren(...visible.map((brand, index) => {
+    if (!state.cards.has(brand.name)) state.cards.set(brand.name, createCard(brand, index));
+    return state.cards.get(brand.name);
+  }));
   elements.grid.setAttribute("aria-busy", "false");
   elements.empty.hidden = visible.length !== 0;
   elements.grid.hidden = visible.length === 0;
@@ -260,6 +282,14 @@ function render() {
       ? button.dataset.country === state.country
       : button.dataset.score === state.score;
     button.setAttribute("aria-pressed", String(selected));
+  });
+}
+
+function scheduleRender() {
+  if (state.renderFrame !== null) cancelAnimationFrame(state.renderFrame);
+  state.renderFrame = requestAnimationFrame(() => {
+    state.renderFrame = null;
+    render();
   });
 }
 
@@ -319,6 +349,7 @@ async function init() {
       .sort((a, b) => a.name.localeCompare(b.name, "fr", { sensitivity: "base" }));
     const logoResponse = await fetch("assets/logos/logos.json", { cache: "no-store" });
     if (logoResponse.ok) state.logos = await logoResponse.json();
+    prepareBrands();
     const latest = state.brands.map(({ checked }) => checked).sort().at(-1);
     elements.lastChecked.textContent = formatDate(latest);
     elements.lastChecked.dateTime = latest;
@@ -335,7 +366,7 @@ async function init() {
 elements.form.addEventListener("submit", (event) => event.preventDefault());
 elements.input.addEventListener("input", (event) => {
   state.query = event.target.value.trim();
-  render();
+  scheduleRender();
 });
 elements.reset.addEventListener("click", () => {
   state.query = "";
