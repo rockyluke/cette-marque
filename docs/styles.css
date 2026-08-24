@@ -358,6 +358,8 @@ kbd {
 .empty-state > span { color: var(--accent); font-size: 3rem; }
 .empty-state h3 { margin: 12px 0 8px; font-family: Georgia, serif; font-size: 2rem; font-weight: 400; }
 .empty-state p { color: var(--muted); }
+.empty-state .empty-state-contact { margin-top: 8px; }
+.empty-state-contact a { color: var(--ink); text-decoration-thickness: 1px; text-underline-offset: 3px; }
 .empty-state button { margin-top: 12px; padding: 11px 16px; border: 1px solid var(--ink); border-radius: 999px; color: #fff; background: var(--ink); cursor: pointer; }
 
 footer {
