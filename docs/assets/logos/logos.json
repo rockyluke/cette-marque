@@ -1,4 +1,11 @@
 {
+  "FNAC": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fnac%20Logo.svg",
+    "commons_title": "File:Fnac Logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Fnac_Logo.svg",
+    "license": "Public domain",
+    "artist": "FNAC"
+  },
   "Cultura": {
     "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Cultura-Logo2021.png",
     "commons_title": "File:Cultura-Logo2021.png",
