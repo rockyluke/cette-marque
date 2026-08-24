@@ -1295,5 +1295,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Dacia-Logo-2021.svg",
     "license": "Public domain",
     "artist": "Dacia"
+  },
+  "Alpine": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Alpine%20logo.png",
+    "commons_title": "File:Alpine logo.png",
+    "source": "https://commons.wikimedia.org/wiki/File:Alpine_logo.png",
+    "license": "Public domain",
+    "artist": "Alpine-Renault"
   }
 }
