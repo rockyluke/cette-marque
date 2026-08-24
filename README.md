@@ -113,6 +113,7 @@ Une base ouverte pour retrouver le siège, le capital et les lieux de fabricatio
 | Frient          | Brand            | https://www.frient.com/         | 🇩🇰 Danemark | 🇩🇰 Danois ([Onics](#onics))                                                                                          | 🌏 Asie, notamment Thaïlande, selon les produits               | 2026-08-03   |
 | Onics           | Industrial group | https://www.onics.com/          | 🇩🇰 Danemark | 🇩🇰 Danois (entreprise privée)                                                                                        | 🌏 Asie, notamment Thaïlande, selon les produits               | 2026-08-03   |
 | VKR Holding     | Holding company  | https://vkr-holding.com/        | 🇩🇰 Danemark | 🇩🇰 Danois (famille Kann Rasmussen et fondations, principalement la Fondation Villum)                                 | 🌍 Portefeuille industriel international                       | 2026-08-24   |
+| DOVISTA         | Industrial group | https://dovista.com/            | 🇩🇰 Danemark | 🇩🇰 Danois ([VKR Holding](#vkr-holding))                                                                              | 🇪🇺 Danemark, France, Allemagne, Lituanie, Norvège, Pologne, Slovaquie et Suède | 2026-08-24   |
 
 ## Espagne 🇪🇸
 
