@@ -530,6 +530,12 @@ Une base ouverte pour retrouver le siège, le capital et les lieux de fabricatio
 | ----- | ----- | ------------------ | ------------ | --------------------------------- | ------------- | ------------ |
 | Tylko | Brand | https://tylko.com/ | 🇵🇱 Pologne | 🇵🇱 Polonais (entreprise privée) | 🇵🇱 Pologne  | 2026-08-23   |
 
+## Roumanie 🇷🇴
+
+| Brand | Type  | Website                | Headquarters | Ownership                                     | Manufacturing                    | Last checked |
+| ----- | ----- | ---------------------- | ------------ | --------------------------------------------- | -------------------------------- | ------------ |
+| Dacia | Brand | https://www.dacia.com/ | 🇷🇴 Roumanie  | 🇫🇷 Français ([Renault Group](#renault-group)) | 🇷🇴 Roumanie et 🇲🇦 Maroc        | 2026-08-24   |
+
 ## Royaume-Uni 🇬🇧
 
 | Brand                      | Type             | Website                                                                          | Headquarters     | Ownership                                                                                                               | Manufacturing                                                       | Last checked |
