@@ -112,6 +112,7 @@ Une base ouverte pour retrouver le siège, le capital et les lieux de fabricatio
 | LEGO            | Brand            | https://www.lego.com/           | 🇩🇰 Danemark | 🇩🇰 Danois (famille Kirk Kristiansen et LEGO Foundation)                                                              | 🌍 Danemark, Hongrie, Tchéquie, Mexique, Chine et Vietnam      | 2026-08-21   |
 | Frient          | Brand            | https://www.frient.com/         | 🇩🇰 Danemark | 🇩🇰 Danois ([Onics](#onics))                                                                                          | 🌏 Asie, notamment Thaïlande, selon les produits               | 2026-08-03   |
 | Onics           | Industrial group | https://www.onics.com/          | 🇩🇰 Danemark | 🇩🇰 Danois (entreprise privée)                                                                                        | 🌏 Asie, notamment Thaïlande, selon les produits               | 2026-08-03   |
+| VKR Holding     | Holding company  | https://vkr-holding.com/        | 🇩🇰 Danemark | 🇩🇰 Danois (famille Kann Rasmussen et fondations, principalement la Fondation Villum)                                 | 🌍 Portefeuille industriel international                       | 2026-08-24   |
 
 ## Espagne 🇪🇸
 
