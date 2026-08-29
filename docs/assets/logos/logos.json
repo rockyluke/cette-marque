@@ -1309,5 +1309,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Logo_Tryba.jpg",
     "license": "Public domain",
     "artist": "Tryba"
+  },
+  "Kensington": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Kensington%20logo.svg",
+    "commons_title": "File:Kensington logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Kensington_logo.svg",
+    "license": "Public domain",
+    "artist": "Kensington Computer Products Group"
   }
 }
