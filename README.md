@@ -589,6 +589,7 @@ Une base ouverte pour retrouver le siège, le capital et les lieux de fabricatio
 | Oatly            | Brand            | https://www.oatly.com/           | 🇸🇪 Suède   | 🇸🇪 Suédois (société cotée au [Nasdaq](https://www.nasdaq.com/market-activity/stocks/otly))                            | 🌍 Europe, États-Unis et Asie, sites propres et partenaires | 2026-08-17   |
 | Pågen            | Industrial group | https://www.pagen.com/           | 🇸🇪 Suède   | 🇸🇪 Suédois (entreprise familiale)                                                                                     | 🇸🇪 Suède (Malmö et Göteborg)                              | 2026-08-23   |
 | Krisprolls       | Brand            | https://www.krisprolls.fr/       | 🇸🇪 Suède   | 🇸🇪 Suédois ([Pågen](#pågen))                                                                                          | 🇸🇪 Suède                                                  | 2026-08-23   |
+| Rapid            | Brand            | https://www.rapid.com/           | 🇸🇪 Suède     | 🇺🇸 Américain ([ACCO Brands](#acco-brands))                                                                              | 🇸🇪 Suède et 🇨🇳 Chine                                        | 2026-08-29   |
 | Yubico           | Brand            | https://www.yubico.com/          | 🇸🇪 Suède   | 🇸🇪 Suédois (société cotée au [Nasdaq Stockholm](https://www.nasdaq.com/european-market-activity/shares/yubico))       | 🇸🇪 Suède et 🇺🇸 États-Unis                               | 2026-08-03   |
 
 ## Suisse 🇨🇭
