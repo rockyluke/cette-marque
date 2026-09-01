@@ -287,21 +287,60 @@ kbd {
 
 .card-topline { display: flex; justify-content: flex-end; color: var(--muted); font-size: 0.72rem; }
 .checked { font-variant-numeric: tabular-nums; }
+.brand-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 14px;
+  margin: 25px 0 26px;
+}
+.brand-card h3 { min-width: 0; margin: 0; font-family: Georgia, serif; font-size: 2rem; font-weight: 400; line-height: 1.05; letter-spacing: -0.045em; }
+.brand-name {
+  position: relative;
+  padding: 0;
+  border: 0;
+  color: inherit;
+  background: none;
+  font: inherit;
+  letter-spacing: inherit;
+  text-align: left;
+  cursor: copy;
+}
+.brand-name:hover { color: var(--accent); }
+.brand-name:focus-visible { border-radius: 4px; outline: 2px solid var(--accent); outline-offset: 4px; }
+.copy-feedback {
+  position: absolute;
+  z-index: 2;
+  top: calc(100% + 8px);
+  left: 0;
+  padding: 5px 8px;
+  border-radius: 6px;
+  color: var(--paper);
+  background: var(--ink);
+  font-family: system-ui, sans-serif;
+  font-size: 0.68rem;
+  font-weight: 750;
+  line-height: 1;
+  letter-spacing: 0;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-3px);
+  transition: opacity 120ms ease, transform 120ms ease;
+}
+.brand-name.is-copied .copy-feedback { opacity: 1; transform: translateY(0); }
 .brand-logo {
   display: flex;
   align-items: center;
+  justify-content: center;
   width: fit-content;
-  height: 52px;
-  max-width: 170px;
-  margin-top: 25px;
-  padding: 8px 11px;
-  border-radius: 10px;
+  height: 40px;
+  max-width: 126px;
+  padding: 6px 9px;
+  border-radius: 8px;
   background: var(--paper-deep);
 }
 .brand-logo[hidden] { display: none; }
-.brand-logo img { display: block; width: auto; height: 36px; max-width: 148px; object-fit: contain; }
-.brand-card h3 { margin: 25px 0 26px; font-family: Georgia, serif; font-size: 2rem; font-weight: 400; line-height: 1.05; letter-spacing: -0.045em; }
-.brand-logo[hidden] + h3 { margin-top: 29px; }
+.brand-logo img { display: block; width: auto; height: 28px; max-width: 108px; object-fit: contain; }
 .brand-card dl { display: grid; gap: 16px; margin: 0 0 25px; }
 .brand-card dl div { display: grid; grid-template-columns: 94px minmax(0, 1fr); align-items: baseline; gap: 10px; }
 .brand-card dl .owned-brands[hidden] { display: none; }

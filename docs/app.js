@@ -216,12 +216,46 @@ function formatDate(value) {
   return new Intl.DateTimeFormat("fr-FR", { day: "numeric", month: "long", year: "numeric" }).format(new Date(`${value}T12:00:00`));
 }
 
+async function copyPlainText(value) {
+  if (navigator.clipboard?.writeText && window.isSecureContext) {
+    await navigator.clipboard.writeText(value);
+    return;
+  }
+
+  const textarea = document.createElement("textarea");
+  textarea.value = value;
+  textarea.setAttribute("readonly", "");
+  textarea.style.position = "fixed";
+  textarea.style.opacity = "0";
+  document.body.append(textarea);
+  textarea.select();
+  const copied = document.execCommand("copy");
+  textarea.remove();
+  if (!copied) throw new Error("Copy failed");
+}
+
 function createCard(brand, index) {
   const fragment = elements.template.content.cloneNode(true);
   const card = fragment.querySelector(".brand-card");
   card.id = brandId(brand.name);
   card.style.animationDelay = `${Math.min(index, 12) * 35}ms`;
-  fragment.querySelector("h3").textContent = brand.name;
+  const nameButton = fragment.querySelector(".brand-name");
+  nameButton.querySelector(".brand-name-text").textContent = brand.name;
+  nameButton.title = `Copier « ${brand.name} »`;
+  nameButton.setAttribute("aria-label", `Copier le nom ${brand.name}`);
+  nameButton.addEventListener("click", async () => {
+    try {
+      await copyPlainText(brand.name);
+      nameButton.classList.add("is-copied");
+      nameButton.setAttribute("aria-label", `${brand.name} copié`);
+      window.setTimeout(() => {
+        nameButton.classList.remove("is-copied");
+        nameButton.setAttribute("aria-label", `Copier le nom ${brand.name}`);
+      }, 1400);
+    } catch (error) {
+      console.error(error);
+    }
+  });
   const logo = state.logos[brand.name];
   if (logo) {
     const logoLink = fragment.querySelector(".brand-logo");
