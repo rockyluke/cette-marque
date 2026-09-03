@@ -80,6 +80,7 @@ Une base ouverte pour retrouver le siège, le capital et les lieux de fabricatio
 | Kipling            | Brand            | https://www.kipling.com/                 | 🇧🇪 Belgique | 🇺🇸 Américain ([VF Corporation](#vf-corporation))                                                                               | 🌏 Fabricants partenaires principalement en Asie                    | 2026-08-20   |
 | Smart Toys & Games | Industrial group | https://www.smartgames.com/              | 🇧🇪 Belgique | 🇧🇪 Belge (entreprise privée)                                                                                                   | 🇨🇳 Chine                                                          | 2026-08-22   |
 | SmartGames         | Brand            | https://www.smartgames.com/              | 🇧🇪 Belgique | 🇧🇪 Belge ([Smart Toys & Games](#smart-toys--games))                                                                            | 🇨🇳 Chine                                                          | 2026-08-22   |
+| Pranarôm           | Brand            | https://www.pranarom.com/                | 🇧🇪 Belgique | 🇫🇷 Français ([Inula Group](https://www.inula.com/), contrôlé par Ardian)                                                       | 🇧🇪 Belgique; ingrédients végétaux d’origines variées          | 2026-09-03   |
 
 ## Bulgarie 🇧🇬
 
