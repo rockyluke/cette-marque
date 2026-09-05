@@ -1365,5 +1365,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Varta-logo-2021.svg",
     "license": "Public domain",
     "artist": "VARTA AG"
+  },
+  "Energizer": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Energizer%20logo.svg",
+    "commons_title": "File:Energizer logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Energizer_logo.svg",
+    "license": "Public domain",
+    "artist": "Energizer"
   }
 }
