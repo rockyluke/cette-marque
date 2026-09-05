@@ -1351,5 +1351,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Kensington_logo.svg",
     "license": "Public domain",
     "artist": "Kensington Computer Products Group"
+  },
+  "Duracell": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Duracell%20logo.svg",
+    "commons_title": "File:Duracell logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Duracell_logo.svg",
+    "license": "Public domain",
+    "artist": "Duracell"
   }
 }
