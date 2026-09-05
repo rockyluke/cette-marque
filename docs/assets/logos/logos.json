@@ -1358,5 +1358,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Duracell_logo.svg",
     "license": "Public domain",
     "artist": "Duracell"
+  },
+  "VARTA": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Varta-logo-2021.svg",
+    "commons_title": "File:Varta-logo-2021.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Varta-logo-2021.svg",
+    "license": "Public domain",
+    "artist": "VARTA AG"
   }
 }
