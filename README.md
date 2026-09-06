@@ -234,6 +234,7 @@ Une base ouverte pour retrouver le siège, le capital et les lieux de fabricatio
 | Swiffer                | Brand                    | Household Care           | https://www.swiffer.fr/                                    | 🇺🇸 États-Unis | 🇺🇸 Américain ([Procter & Gamble](#procter--gamble))                                                        | 🌍 Réseau industriel mondial de Procter & Gamble                                    | 2026-08-18   |
 | M. Propre              | Brand                    | Household Care           | https://www.enviedeplus.com/marques/mr-propre              | 🇺🇸 États-Unis | 🇺🇸 Américain ([Procter & Gamble](#procter--gamble))                                                        | 🌍 Réseau industriel mondial de Procter & Gamble                                    | 2026-08-18   |
 | Cheerios               | Brand                    | Food & Beverage          | https://www.nestle.fr/nosmarques/cereales/cerealescheerios | 🇺🇸 États-Unis | 🇨🇭 Suisse et 🇺🇸 américain ([Cereal Partners Worldwide](#cereal-partners-worldwide), hors Amérique du Nord) | 🇫🇷 France (Rumilly) pour le marché français                                        | 2026-09-06   |
+| Friskies               | Brand                    | Pet Care                 | https://www.purina.fr/chat/alimentation/friskies           | 🇺🇸 États-Unis | 🇨🇭 Suisse ([Nestlé](#nestlé), via Purina)                                                                  | 🌍 France (Quimperlé) et réseau industriel mondial de Purina                        | 2026-09-06   |
 
 ## Finlande 🇫🇮
 
