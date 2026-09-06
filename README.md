@@ -624,8 +624,8 @@ Une base ouverte pour retrouver le siège, le capital et les lieux de fabricatio
 
 ## Slovaquie 🇸🇰
 
-| Brand   | Type  | Category        | Website                    | Headquarters | Ownership                               | Manufacturing | Last checked |
-| ------- | ----- | --------------- | -------------------------- | ------------ | --------------------------------------- | ------------- | ------------ |
+| Brand   | Type  | Category        | Website                     | Headquarters | Ownership                               | Manufacturing | Last checked |
+| ------- | ----- | --------------- | --------------------------- | ------------ | --------------------------------------- | ------------- | ------------ |
 | Gervais | Brand | Food & Beverage | https://bel-slovakia.sk/en/ | 🇸🇰 Slovaquie | 🇫🇷 Français ([Groupe Bel](#groupe-bel)) | 🇸🇰 Slovaquie  | 2026-09-06   |
 
 ## Suède 🇸🇪
