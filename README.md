@@ -622,6 +622,12 @@ Une base ouverte pour retrouver le siège, le capital et les lieux de fabricatio
 | --------- | ----- | ------------- | --------------------- | ------------ | ---------------------------------------------------------------- | ------------- | ------------ |
 | Secretlab | Brand | Home & Living | https://secretlab.eu/ | 🇸🇬 Singapour | 🇸🇬 Singapourien (entreprise privée contrôlée par ses fondateurs) | 🇨🇳 Chine      | 2026-08-24   |
 
+## Slovaquie 🇸🇰
+
+| Brand   | Type  | Category        | Website                    | Headquarters | Ownership                               | Manufacturing | Last checked |
+| ------- | ----- | --------------- | -------------------------- | ------------ | --------------------------------------- | ------------- | ------------ |
+| Gervais | Brand | Food & Beverage | https://bel-slovakia.sk/en/ | 🇸🇰 Slovaquie | 🇫🇷 Français ([Groupe Bel](#groupe-bel)) | 🇸🇰 Slovaquie  | 2026-09-06   |
+
 ## Suède 🇸🇪
 
 | Brand            | Type             | Category                 | Website                          | Headquarters | Ownership                                                                                                             | Manufacturing                                              | Last checked |
