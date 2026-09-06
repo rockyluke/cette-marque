@@ -121,6 +121,7 @@ Une base ouverte pour retrouver le siège, le capital et les lieux de fabricatio
 | Onics           | Industrial group | Technology & Electronics | https://www.onics.com/          | 🇩🇰 Danemark  | 🇩🇰 Danois (entreprise privée)                                                                                        | 🌏 Asie, notamment Thaïlande, selon les produits                                | 2026-08-03   |
 | VKR Holding     | Holding company  | Multi-category           | https://vkr-holding.com/        | 🇩🇰 Danemark  | 🇩🇰 Danois (famille Kann Rasmussen et fondations, principalement la Fondation Villum)                                 | 🌍 Portefeuille industriel international                                        | 2026-08-24   |
 | DOVISTA         | Industrial group | Home & Living            | https://dovista.com/            | 🇩🇰 Danemark  | 🇩🇰 Danois ([VKR Holding](#vkr-holding))                                                                              | 🇪🇺 Danemark, France, Allemagne, Lituanie, Norvège, Pologne, Slovaquie et Suède | 2026-08-24   |
+| Cavius          | Brand            | Technology & Electronics | https://www.cavius.com/         | 🇩🇰 Danemark  | 🇺🇸 Américain ([Kidde Global Solutions](#kidde-global-solutions), groupe [Lone Star Funds](#lone-star-funds))          | 🇨🇳 Chine                                                                      | 2026-09-06   |
 
 ## Espagne 🇪🇸
 
