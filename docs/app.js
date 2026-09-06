@@ -3,6 +3,7 @@ const state = {
   logos: {},
   query: "",
   country: "all",
+  category: "all",
   score: "all",
   cards: new Map(),
   renderFrame: null,
@@ -13,6 +14,7 @@ const elements = {
   input: document.querySelector("#search-input"),
   grid: document.querySelector("#brand-grid"),
   filters: document.querySelector("#country-filters"),
+  categoryFilters: document.querySelector("#category-filters"),
   scoreFilters: document.querySelector("#score-filters"),
   brandCount: document.querySelector("#brand-count"),
   brandCountLabel: document.querySelector("#brand-count-label"),
@@ -37,14 +39,30 @@ function parseBrands(markdown) {
     .split("\n")
     .filter((line) => line.startsWith("| "))
     .map((line) => line.slice(1, -1).split("|").map((cell) => cell.trim()))
-    .filter((cells) => (cells.length === 6 || cells.length === 7) && cells[0] !== "Brand" && !cells[0].startsWith("---"))
+    .filter((cells) => [6, 7, 8].includes(cells.length) && cells[0] !== "Brand" && !cells[0].startsWith("---"))
     .map((cells) => {
-      const [name, type, website, headquarters, ownership, manufacturing, checked] = cells.length === 7
-        ? cells
-        : [cells[0], "Brand", ...cells.slice(1)];
+      let name;
+      let type;
+      let category;
+      let website;
+      let headquarters;
+      let ownership;
+      let manufacturing;
+      let checked;
+      if (cells.length === 8) {
+        [name, type, category, website, headquarters, ownership, manufacturing, checked] = cells;
+      } else if (cells.length === 7) {
+        [name, type, website, headquarters, ownership, manufacturing, checked] = cells;
+        category = "Multi-category";
+      } else {
+        [name, website, headquarters, ownership, manufacturing, checked] = cells;
+        type = "Brand";
+        category = "Multi-category";
+      }
       return {
         name: plainText(name),
         type: plainText(type),
+        category: plainText(category),
         website,
         headquarters: plainText(headquarters),
         ownership: plainText(ownership),
@@ -195,6 +213,8 @@ function prepareBrands() {
     brand.searchText = normalize([
       brand.name,
       brand.type,
+      brand.category,
+      categoryLabels[brand.category] || brand.category,
       brand.headquarters,
       brand.ownership,
       brand.manufacturing,
@@ -208,6 +228,7 @@ function matches(brand, query) {
   const scoreMatches = state.score === "all" || (scoreEligible && brand.score === state.score);
   return (!query || brand.searchText.includes(query))
     && (state.country === "all" || brand.headquarters === state.country)
+    && (state.category === "all" || brand.category === state.category)
     && scoreMatches;
 }
 
@@ -268,6 +289,7 @@ function createCard(brand, index) {
     logoImage.alt = `Logo ${brand.name}`;
   }
   fragment.querySelector(".headquarters").textContent = brand.headquarters;
+  fragment.querySelector(".category").textContent = categoryLabels[brand.category] || brand.category;
   fragment.querySelector(".checked").textContent = brand.checked;
   fragment.querySelector(".checked").dateTime = brand.checked;
   renderMarkdownLinks(fragment.querySelector(".ownership"), brand.ownershipMarkdown);
@@ -316,9 +338,51 @@ function render() {
   document.querySelectorAll(".filter-button").forEach((button) => {
     const selected = button.dataset.country
       ? button.dataset.country === state.country
-      : button.dataset.score === state.score;
+      : button.dataset.category
+        ? button.dataset.category === state.category
+        : button.dataset.score === state.score;
     button.setAttribute("aria-pressed", String(selected));
   });
+}
+
+const categoryLabels = {
+  "Food & Beverage": "Alimentation & boissons",
+  "Beauty & Personal Care": "Beauté & soins personnels",
+  "Health & Wellness": "Santé & bien-être",
+  "Household Care": "Entretien de la maison",
+  "Home & Living": "Maison & décoration",
+  "DIY & Garden": "Bricolage & jardin",
+  Appliances: "Électroménager",
+  "Technology & Electronics": "Technologie & électronique",
+  "Fashion & Accessories": "Mode & accessoires",
+  "Sports & Outdoors": "Sport & plein air",
+  Mobility: "Mobilité",
+  "Baby, Kids & Toys": "Enfance & jouets",
+  "Office & Stationery": "Bureau & papeterie",
+  "Pet Care": "Animaux",
+  "Multi-category": "Multicatégorie",
+};
+
+function renderCategoryFilters() {
+  const categories = [...new Set(state.brands.map((brand) => brand.category))]
+    .sort((a, b) => (categoryLabels[a] || a).localeCompare(categoryLabels[b] || b, "fr"));
+  const options = [{ label: "Toutes", value: "all" }, ...categories.map((category) => ({
+    label: categoryLabels[category] || category,
+    value: category,
+  }))];
+  elements.categoryFilters.replaceChildren(...options.map(({ label, value }) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "filter-button";
+    button.dataset.category = value;
+    button.textContent = label;
+    button.setAttribute("aria-pressed", String(value === state.category));
+    button.addEventListener("click", () => {
+      state.category = value;
+      render();
+    });
+    return button;
+  }));
 }
 
 function scheduleRender() {
@@ -376,8 +440,11 @@ function countryName(value) {
 
 async function init() {
   try {
-    const sourceUrl = new URL("https://raw.githubusercontent.com/rockyluke/cette-marque/main/README.md");
-    sourceUrl.searchParams.set("schema", "2");
+    const isLocalPreview = ["localhost", "127.0.0.1", "::1"].includes(window.location.hostname);
+    const sourceUrl = isLocalPreview
+      ? new URL("../README.md", window.location.href)
+      : new URL("https://raw.githubusercontent.com/rockyluke/cette-marque/main/README.md");
+    sourceUrl.searchParams.set("schema", "3");
     sourceUrl.searchParams.set("v", Date.now().toString());
     const response = await fetch(sourceUrl, { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
@@ -390,6 +457,7 @@ async function init() {
     elements.lastChecked.textContent = formatDate(latest);
     elements.lastChecked.dateTime = latest;
     renderFilters();
+    renderCategoryFilters();
     renderScoreFilters();
     render();
   } catch (error) {
@@ -407,6 +475,7 @@ elements.input.addEventListener("input", (event) => {
 elements.reset.addEventListener("click", () => {
   state.query = "";
   state.country = "all";
+  state.category = "all";
   state.score = "all";
   elements.input.value = "";
   elements.input.focus();

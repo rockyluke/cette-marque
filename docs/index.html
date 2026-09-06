@@ -7,8 +7,8 @@
     <meta name="theme-color" content="#f4f1e8" />
     <title>Cette marque - Origine des marques</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css?v=20260901-1" />
-    <script src="app.js?v=20260901-1" defer></script>
+    <link rel="stylesheet" href="styles.css?v=20260906-1" />
+    <script src="app.js?v=20260906-1" defer></script>
   </head>
   <body>
     <main>
@@ -36,6 +36,10 @@
           <span>Pays</span>
           <div class="filters country-filters" id="country-filters" aria-label="Filtrer par pays"></div>
         </div>
+        <div class="filter-group category-filter-group">
+          <span>Catégorie</span>
+          <div class="filters category-filters" id="category-filters" aria-label="Filtrer par catégorie"></div>
+        </div>
         <div class="filter-group score-filter-group">
           <span>Géo-score</span>
           <div class="filters score-filters" id="score-filters" aria-label="Filtrer par Géo-score"></div>
@@ -61,6 +65,7 @@
     <template id="brand-card-template">
       <article class="brand-card">
         <div class="card-topline">
+          <span class="category"></span>
           <time class="checked"></time>
         </div>
         <div class="brand-heading">

@@ -217,7 +217,8 @@ kbd {
   gap: 12px;
 }
 
-.country-filter-group {
+.country-filter-group,
+.category-filter-group {
   margin-bottom: 12px;
 }
 
@@ -236,6 +237,7 @@ kbd {
 }
 
 .country-filters { margin: 0; padding-bottom: 8px; }
+.category-filters { margin: 0; padding-bottom: 8px; }
 .score-filters { margin: 0; padding-bottom: 0; }
 .score-filter-button:not([data-score="all"]) {
   min-width: 39px;
@@ -285,7 +287,8 @@ kbd {
   box-shadow: var(--shadow);
 }
 
-.card-topline { display: flex; justify-content: flex-end; color: var(--muted); font-size: 0.72rem; }
+.card-topline { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; color: var(--muted); font-size: 0.72rem; }
+.category { color: var(--accent); font-weight: 750; }
 .checked { font-variant-numeric: tabular-nums; }
 .brand-heading {
   display: grid;

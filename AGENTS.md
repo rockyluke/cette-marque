@@ -23,9 +23,11 @@ Verify the canonical brand name, official website, headquarters, current ultimat
 
 Add each entry to the country section matching its headquarters. Use these columns exactly:
 
-`Brand | Type | Website | Headquarters | Ownership | Manufacturing | Last checked`
+`Brand | Type | Category | Website | Headquarters | Ownership | Manufacturing | Last checked`
 
 Supported `Type` values currently include `Brand`, `Industrial group`, `Holding company`, `Retailer` and `Brand management company`. Only rows with `Type` equal to `Brand` receive a Géo-score.
+
+Use exactly one primary `Category` value: `Food & Beverage`, `Beauty & Personal Care`, `Health & Wellness`, `Household Care`, `Home & Living`, `DIY & Garden`, `Appliances`, `Technology & Electronics`, `Fashion & Accessories`, `Sports & Outdoors`, `Mobility`, `Baby, Kids & Toys`, `Office & Stationery`, `Pet Care` or `Multi-category`. Choose the dominant consumer market; use `Multi-category` for diversified holdings and genuinely broad businesses.
 
 Use `YYYY-MM-DD` for `Last checked`, with the actual verification date. Keep every Markdown table aligned in source: pad cells with spaces so all separators in a country table line up.
 
