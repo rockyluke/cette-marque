@@ -237,6 +237,7 @@ Une base ouverte pour retrouver le siège, le capital et les lieux de fabricatio
 | Friskies               | Brand                    | Pet Care                 | https://www.purina.fr/chat/alimentation/friskies           | 🇺🇸 États-Unis | 🇨🇭 Suisse ([Nestlé](#nestlé), via Purina)                                                                  | 🌍 France (Quimperlé) et réseau industriel mondial de Purina                        | 2026-09-06   |
 | Purina                 | Brand                    | Pet Care                 | https://www.purina.fr/                                     | 🇺🇸 États-Unis | 🇨🇭 Suisse ([Nestlé](#nestlé))                                                                              | 🌍 Réseau industriel mondial, dont plusieurs sites en France                        | 2026-09-06   |
 | Lone Star Funds        | Holding company          | Multi-category           | https://www.lonestarfunds.com/                             | 🇺🇸 États-Unis | 🇺🇸 Américain (société de capital-investissement privée)                                                   | 🌍 Portefeuille international                                                       | 2026-09-06   |
+| Kidde Global Solutions | Industrial group         | Technology & Electronics | https://www.kiddeglobalsolutions.com/                      | 🇺🇸 États-Unis | 🇺🇸 Américain ([Lone Star Funds](#lone-star-funds))                                                         | 🌍 Réseau industriel international de solutions de sécurité incendie                 | 2026-09-06   |
 
 ## Finlande 🇫🇮
 
