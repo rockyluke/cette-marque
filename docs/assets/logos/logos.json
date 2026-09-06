@@ -1463,5 +1463,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Carlsberg_Group.png",
     "license": "Wikimedia Commons",
     "artist": "Carlsberg Group"
+  },
+  "Buitoni": {
+    "file": "buitoni.svg",
+    "title": "Site officiel Buitoni",
+    "source": "https://www.buitoni-pizza.com/themes/custom/buitoni_th/logo.svg",
+    "license": "Logo officiel",
+    "artist": "Buitoni"
   }
 }
