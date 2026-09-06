@@ -246,6 +246,7 @@ Une base ouverte pour retrouver le siège, le capital et les lieux de fabricatio
 | Pledge                 | Brand                    | Household Care           | https://www.pledge.com/                                    | 🇺🇸 États-Unis | 🇺🇸 Américain ([SC Johnson](#sc-johnson))                                                                   | 🌍 États-Unis, Pays-Bas et autres sites de SC Johnson                               | 2026-09-06   |
 | Windex                 | Brand                    | Household Care           | https://www.windex.com/                                    | 🇺🇸 États-Unis | 🇺🇸 Américain ([SC Johnson](#sc-johnson))                                                                   | 🇺🇸 États-Unis (Wisconsin) et autres sites selon les marchés                        | 2026-09-06   |
 | Ziploc                 | Brand                    | Household Care           | https://ziploc.com/                                        | 🇺🇸 États-Unis | 🇺🇸 Américain ([SC Johnson](#sc-johnson))                                                                   | 🇺🇸 États-Unis (Michigan), 🇲🇽 Mexique et autres sites selon les marchés             | 2026-09-06   |
+| Raid                   | Brand                    | Household Care           | https://raid.com/                                          | 🇺🇸 États-Unis | 🇺🇸 Américain ([SC Johnson](#sc-johnson))                                                                   | 🌍 États-Unis, Pays-Bas, Brésil et autres sites de SC Johnson                       | 2026-09-06   |
 
 ## Finlande 🇫🇮
 
