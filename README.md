@@ -244,6 +244,7 @@ Une base ouverte pour retrouver le siège, le capital et les lieux de fabricatio
 | SC Johnson             | Industrial group         | Household Care           | https://www.scjohnson.com/                                 | 🇺🇸 États-Unis | 🇺🇸 Américain (entreprise familiale privée)                                                                 | 🌍 Réseau industriel en Amérique, Europe, Afrique et Asie                             | 2026-09-06   |
 | Glade                  | Brand                    | Household Care           | https://www.glade.com/                                     | 🇺🇸 États-Unis | 🇺🇸 Américain ([SC Johnson](#sc-johnson))                                                                  | 🌍 États-Unis, Canada, Pays-Bas, Pologne, Brésil et autres sites de SC Johnson       | 2026-09-06   |
 | Pledge                 | Brand                    | Household Care           | https://www.pledge.com/                                    | 🇺🇸 États-Unis | 🇺🇸 Américain ([SC Johnson](#sc-johnson))                                                                   | 🌍 États-Unis, Pays-Bas et autres sites de SC Johnson                               | 2026-09-06   |
+| Windex                 | Brand                    | Household Care           | https://www.windex.com/                                    | 🇺🇸 États-Unis | 🇺🇸 Américain ([SC Johnson](#sc-johnson))                                                                   | 🇺🇸 États-Unis (Wisconsin) et autres sites selon les marchés                        | 2026-09-06   |
 
 ## Finlande 🇫🇮
 
