@@ -1464,6 +1464,55 @@
     "license": "Wikimedia Commons",
     "artist": "Carlsberg Group"
   },
+  "Glade": {
+    "url": "https://scjohnson.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Fscjohnsonana080-dart-production-40df%2Fmedia%2Fproject%2Fdart%2Fcorporate%2Fresized-images%2Four-brands%2Fbrands-logos%2Fbrand-glade.png%3Fh%3D262%26iar%3D0%26w%3D327&w=2048&q=75",
+    "title": "Site officiel SC Johnson",
+    "source": "https://scjohnson.com/en/our-brands",
+    "license": "Logo officiel",
+    "artist": "SC Johnson"
+  },
+  "Pledge": {
+    "url": "https://scjohnson.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Fscjohnsonana080-dart-production-40df%2Fmedia%2Fproject%2Fdart%2Fcorporate%2Fresized-images%2Four-brands%2Fbrands-logos%2Fbrand-pledge.png%3Fh%3D262%26iar%3D0%26w%3D327&w=2048&q=75",
+    "title": "Site officiel SC Johnson",
+    "source": "https://scjohnson.com/en/our-brands",
+    "license": "Logo officiel",
+    "artist": "SC Johnson"
+  },
+  "Windex": {
+    "url": "https://scjohnson.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Fscjohnsonana080-dart-production-40df%2Fmedia%2Fproject%2Fdart%2Fcorporate%2Fresized-images%2Four-brands%2Fbrands-logos%2Fbrand-windex.png%3Fh%3D262%26iar%3D0%26w%3D327&w=2048&q=75",
+    "title": "Site officiel SC Johnson",
+    "source": "https://scjohnson.com/en/our-brands",
+    "license": "Logo officiel",
+    "artist": "SC Johnson"
+  },
+  "Ziploc": {
+    "url": "https://scjohnson.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Fscjohnsonana080-dart-production-40df%2Fmedia%2Fproject%2Fdart%2Fcorporate%2Fresized-images%2Four-brands%2Fbrand-logo-new%2Fscj-01_25-ziploc-logo-(1).png%3Fh%3D185%26iar%3D0%26w%3D330&w=2048&q=75",
+    "title": "Site officiel SC Johnson",
+    "source": "https://scjohnson.com/en/our-brands",
+    "license": "Logo officiel",
+    "artist": "SC Johnson"
+  },
+  "Baygon": {
+    "url": "https://scjohnson.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Fscjohnsonana080-dart-production-40df%2Fmedia%2Fproject%2Fdart%2Fcorporate%2Fresized-images%2Four-brands%2Fbrands-logos%2Fbrand-baygon.png%3Fh%3D262%26iar%3D0%26w%3D327&w=2048&q=75",
+    "title": "Site officiel SC Johnson",
+    "source": "https://scjohnson.com/en/our-brands",
+    "license": "Logo officiel",
+    "artist": "SC Johnson"
+  },
+  "Pyrel": {
+    "url": "https://scjohnson.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Fscjohnsonana080-dart-production-40df%2Fmedia%2Fproject%2Fdart%2Fcorporate%2Fresized-images%2Four-brands%2Fbrands-logos%2Fbrand-pyrel.png%3Fh%3D262%26iar%3D0%26w%3D327&w=2048&q=75",
+    "title": "Site officiel SC Johnson",
+    "source": "https://scjohnson.com/en/our-brands",
+    "license": "Logo officiel",
+    "artist": "SC Johnson"
+  },
+  "Raid": {
+    "url": "https://scjohnson.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Fscjohnsonana080-dart-production-40df%2Fmedia%2Fproject%2Fdart%2Fcorporate%2Fresized-images%2Four-brands%2Fbrands-logos%2Fbrand-raid.png%3Fh%3D262%26iar%3D0%26w%3D327&w=2048&q=75",
+    "title": "Site officiel SC Johnson",
+    "source": "https://scjohnson.com/en/our-brands",
+    "license": "Logo officiel",
+    "artist": "SC Johnson"
+  },
   "Buitoni": {
     "file": "buitoni.svg",
     "title": "Site officiel Buitoni",
