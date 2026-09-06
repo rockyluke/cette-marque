@@ -15,7 +15,6 @@ const elements = {
   grid: document.querySelector("#brand-grid"),
   filters: document.querySelector("#country-filters"),
   categoryFilters: document.querySelector("#category-filters"),
-  scoreFilters: document.querySelector("#score-filters"),
   brandCount: document.querySelector("#brand-count"),
   brandCountLabel: document.querySelector("#brand-count-label"),
   lastChecked: document.querySelector("#last-checked"),
@@ -413,27 +412,6 @@ function renderFilters() {
   }));
 }
 
-function renderScoreFilters() {
-  const options = [
-    { label: "Tous les scores", value: "all" },
-    ...["A", "B", "C", "D", "E", "?"].map((score) => ({ label: score, value: score })),
-  ];
-  elements.scoreFilters.replaceChildren(...options.map(({ label, value }) => {
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = "filter-button score-filter-button";
-    button.dataset.score = value;
-    button.textContent = label;
-    if (value !== "all") button.classList.add(value === "?" ? "score-unknown" : `score-${value.toLowerCase()}`);
-    button.setAttribute("aria-pressed", String(value === state.score));
-    button.addEventListener("click", () => {
-      state.score = value;
-      render();
-    });
-    return button;
-  }));
-}
-
 function countryName(value) {
   return value.split(/\s+/).slice(1).join(" ");
 }
@@ -458,7 +436,6 @@ async function init() {
     elements.lastChecked.dateTime = latest;
     renderFilters();
     renderCategoryFilters();
-    renderScoreFilters();
     render();
   } catch (error) {
     elements.grid.setAttribute("aria-busy", "false");

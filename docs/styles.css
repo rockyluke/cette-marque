@@ -217,12 +217,11 @@ kbd {
   gap: 12px;
 }
 
-.country-filter-group,
-.category-filter-group {
+.country-filter-group {
   margin-bottom: 12px;
 }
 
-.score-filter-group {
+.category-filter-group {
   margin-bottom: 30px;
 }
 
@@ -238,16 +237,6 @@ kbd {
 
 .country-filters { margin: 0; padding-bottom: 8px; }
 .category-filters { margin: 0; padding-bottom: 8px; }
-.score-filters { margin: 0; padding-bottom: 0; }
-.score-filter-button:not([data-score="all"]) {
-  min-width: 39px;
-  border-color: transparent;
-  color: #fff;
-}
-.score-filter-button.score-c { color: #2a2a21; }
-.score-filter-button[aria-pressed="true"] { box-shadow: inset 0 0 0 2px var(--paper), 0 0 0 1px var(--ink); }
-.score-filter-button[data-score="all"][aria-pressed="true"] { box-shadow: none; }
-
 .filter-button {
   flex: 0 0 auto;
   padding: 10px 14px;
@@ -372,12 +361,6 @@ kbd {
 .score-d { background: #e8892d; }
 .score-e { background: #d74a3a; }
 .score-unknown { background: #7c8581; }
-.score-filter-button.score-a[aria-pressed="true"] { background: #16844b; }
-.score-filter-button.score-b[aria-pressed="true"] { background: #75a936; }
-.score-filter-button.score-c[aria-pressed="true"] { color: #2a2a21; background: #f2c94c; }
-.score-filter-button.score-d[aria-pressed="true"] { background: #e8892d; }
-.score-filter-button.score-e[aria-pressed="true"] { background: #d74a3a; }
-.score-filter-button.score-unknown[aria-pressed="true"] { background: #7c8581; }
 
 .score-page { padding: 70px 0 100px; }
 .score-page h1 { white-space: normal; font-size: clamp(2.8rem, 7vw, 5.5rem); }
