@@ -493,6 +493,7 @@ Une base ouverte pour retrouver le siège, le capital et les lieux de fabricatio
 | Mutti           | Brand                    | Food & Beverage       | https://mutti-parma.com/         | 🇮🇹 Italie    | 🇮🇹 Italien (entreprise familiale)                                                                                                                              | 🇮🇹 Italie                                                  | 2026-08-17   |
 | Nutella         | Brand                    | Food & Beverage       | https://www.nutella.com/         | 🇮🇹 Italie    | 🇮🇹 Italien ([Ferrero Group](#ferrero-group))                                                                                                                   | 🌍 France, Pologne, Canada, Mexique et autres sites Ferrero | 2026-08-21   |
 | Tic Tac         | Brand                    | Food & Beverage       | https://www.tictac.com/          | 🇮🇹 Italie    | 🇮🇹 Italien ([Ferrero Group](#ferrero-group))                                                                                                                   | 🌍 Sites de production de Ferrero selon les marchés         | 2026-08-21   |
+| Buitoni         | Brand                    | Food & Beverage       | https://www.buitoni-pizza.com/   | 🇮🇹 Italie    | 🇱🇺 Luxembourgeois ([European Pizza Group](#european-pizza-group))                                                                                              | 🇩🇪 Allemagne et 🇮🇹 Italie                                  | 2026-09-06   |
 
 ## Japon 🇯🇵
 
