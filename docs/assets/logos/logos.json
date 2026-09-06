@@ -1372,5 +1372,96 @@
     "source": "https://commons.wikimedia.org/wiki/File:Energizer_logo.svg",
     "license": "Public domain",
     "artist": "Energizer"
+  },
+  "Ajax": {
+    "file": "ajax.svg",
+    "commons_title": "File:Ajax logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Ajax_logo.svg",
+    "license": "Wikimedia Commons",
+    "artist": "Colgate-Palmolive"
+  },
+  "Albal": {
+    "file": "albal.svg",
+    "commons_title": "File:Logo Melitta (Albal) alt.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Logo_Melitta_%28Albal%29_alt.svg",
+    "license": "Wikimedia Commons",
+    "artist": "Melitta"
+  },
+  "Ambi Pur": {
+    "file": "ambi-pur.png",
+    "title": "Logo Ambi Pur fourni par l’utilisateur",
+    "source": "https://en.wikipedia.org/wiki/Ambi_Pur#/media/File:Ambi_Pur.png",
+    "license": "Logo officiel",
+    "artist": "Procter & Gamble"
+  },
+  "Babybel": {
+    "file": "babybel.webp",
+    "title": "Site officiel Groupe Bel",
+    "source": "https://www.groupe-bel.com/wp-content/uploads/2025/07/LOGO_Babybel_-282x301.png.webp",
+    "license": "Logo officiel",
+    "artist": "Groupe Bel"
+  },
+  "Boursin": {
+    "file": "boursin.png",
+    "title": "Site officiel Bel Foodservice",
+    "source": "https://www.belfoodservice.fr/wp-content/uploads/sites/19/2024/01/Boursin-new.png",
+    "license": "Logo officiel",
+    "artist": "Groupe Bel"
+  },
+  "Kiri": {
+    "file": "kiri.png",
+    "title": "Site officiel Bel Foodservice",
+    "source": "https://www.belfoodservice.fr/wp-content/uploads/sites/19/2024/01/Kiri.png",
+    "license": "Logo officiel",
+    "artist": "Groupe Bel"
+  },
+  "La Vache qui rit": {
+    "file": "la-vache-qui-rit.png",
+    "title": "Site officiel Bel Foodservice",
+    "source": "https://www.belfoodservice.fr/wp-content/uploads/sites/19/2024/01/LVQR.png",
+    "license": "Logo officiel",
+    "artist": "Groupe Bel"
+  },
+  "Pom’Potes": {
+    "file": "pom-potes.png",
+    "title": "Site officiel Bel Foodservice",
+    "source": "https://www.belfoodservice.fr/wp-content/uploads/sites/19/2025/02/Logo-Pompotes-1-600x600.png",
+    "license": "Logo officiel",
+    "artist": "Groupe Bel"
+  },
+  "Mont Blanc": {
+    "file": "mont-blanc.png",
+    "title": "Site officiel Bel Foodservice",
+    "source": "https://www.belfoodservice.fr/marques/mont-blanc/",
+    "license": "Logo officiel",
+    "artist": "Groupe Bel"
+  },
+  "Gervais": {
+    "file": "gervais.webp",
+    "title": "Site officiel Groupe Bel",
+    "source": "https://www.groupe-bel.com/wp-content/uploads/2025/06/Gervais-logo-RGB.png.webp",
+    "license": "Logo officiel",
+    "artist": "Groupe Bel"
+  },
+  "Apéricube": {
+    "file": "apericube.webp",
+    "title": "Site officiel Groupe Bel",
+    "source": "https://www.groupe-bel.com/wp-content/uploads/2025/06/logo-apericube-1200x849.png.webp",
+    "license": "Logo officiel",
+    "artist": "Groupe Bel"
+  },
+  "Groupe Bel": {
+    "file": "groupe-bel.svg",
+    "title": "Site officiel Groupe Bel",
+    "source": "https://www.groupe-bel.com/wp-content/themes/niji-theme/assets/svg/logo.svg",
+    "license": "Logo officiel",
+    "artist": "Groupe Bel"
+  },
+  "Carlsberg Group": {
+    "file": "carlsberg-group.png",
+    "commons_title": "File:Carlsberg Group.png",
+    "source": "https://commons.wikimedia.org/wiki/File:Carlsberg_Group.png",
+    "license": "Wikimedia Commons",
+    "artist": "Carlsberg Group"
   }
 }
