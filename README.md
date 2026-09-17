@@ -248,6 +248,7 @@ Une base ouverte pour retrouver le siège, le capital et les lieux de fabricatio
 | Ziploc                 | Brand                    | Household Care           | https://ziploc.com/                                        | 🇺🇸 États-Unis | 🇺🇸 Américain ([SC Johnson](#sc-johnson))                                                                   | 🇺🇸 États-Unis (Michigan), 🇲🇽 Mexique et autres sites selon les marchés             | 2026-09-06   |
 | Raid                   | Brand                    | Household Care           | https://raid.com/                                          | 🇺🇸 États-Unis | 🇺🇸 Américain ([SC Johnson](#sc-johnson))                                                                   | 🌍 États-Unis, Pays-Bas, Brésil et autres sites de SC Johnson                       | 2026-09-06   |
 | Wild Republic          | Brand                    | Baby, Kids & Toys        | https://wildrepublic.com/                                  | 🇺🇸 États-Unis | 🇺🇸 Américain (K&M International, entreprise familiale privée)                                              | 🇨🇳 Chine et 🇮🇳 Inde selon les produits                                             | 2026-09-16   |
+| Days of Wonder         | Brand                    | Baby, Kids & Toys        | https://www.daysofwonder.com/                              | 🇺🇸 États-Unis | 🇸🇪 Suédois ([Asmodee](#asmodee))                                                                           | 🇨🇳 Chine et 🇪🇺 Europe selon les jeux et les éditions                               | 2026-09-17   |
 
 ## Finlande 🇫🇮
 
