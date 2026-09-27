@@ -1520,6 +1520,13 @@
     "license": "Public domain",
     "artist": "Asmodee"
   },
+  "Insta360": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Insta360%20logo%20%28transparent%29.svg",
+    "commons_title": "File:Insta360 logo (transparent).svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Insta360_logo_(transparent).svg",
+    "license": "Public domain",
+    "artist": "Insta360"
+  },
   "Buitoni": {
     "file": "buitoni.svg",
     "title": "Site officiel Buitoni",
