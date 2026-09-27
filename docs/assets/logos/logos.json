@@ -1527,6 +1527,13 @@
     "license": "Public domain",
     "artist": "Insta360"
   },
+  "DJI": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/DJI%20logo.png",
+    "commons_title": "File:DJI logo.png",
+    "source": "https://commons.wikimedia.org/wiki/File:DJI_logo.png",
+    "license": "Wikimedia Commons",
+    "artist": "DJI"
+  },
   "Buitoni": {
     "file": "buitoni.svg",
     "title": "Site officiel Buitoni",
