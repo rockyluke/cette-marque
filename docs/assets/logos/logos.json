@@ -1534,6 +1534,13 @@
     "license": "Wikimedia Commons",
     "artist": "DJI"
   },
+  "GoPro": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/GoPro%20logo%20light.svg",
+    "commons_title": "File:GoPro logo light.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:GoPro_logo_light.svg",
+    "license": "Public domain",
+    "artist": "GoPro Inc."
+  },
   "Buitoni": {
     "file": "buitoni.svg",
     "title": "Site officiel Buitoni",
