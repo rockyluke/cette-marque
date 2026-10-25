@@ -256,6 +256,7 @@ Une base ouverte pour retrouver le siège, le capital et les lieux de fabricatio
 | Wild Republic          | Brand                    | Baby, Kids & Toys        | https://wildrepublic.com/                                  | 🇺🇸 États-Unis | 🇺🇸 Américain (K&M International, entreprise familiale privée)                                              | 🇨🇳 Chine et 🇮🇳 Inde selon les produits                                             | 2026-09-16   |
 | Days of Wonder         | Brand                    | Baby, Kids & Toys        | https://www.daysofwonder.com/                              | 🇺🇸 États-Unis | 🇸🇪 Suédois ([Asmodee](#asmodee))                                                                           | 🇨🇳 Chine et 🇪🇺 Europe selon les jeux et les éditions                               | 2026-09-17   |
 | Exploding Kittens      | Brand                    | Baby, Kids & Toys        | https://www.explodingkittens.com/                          | 🇺🇸 États-Unis | 🇸🇪 Suédois ([Asmodee](#asmodee))                                                                           | 🇨🇳 Chine selon les produits                                                        | 2026-09-17   |
+| Bose                   | Brand                    | Technology & Electronics | https://www.bose.com/                                      | 🇺🇸 États-Unis | 🇺🇸 Américain (entreprise privée)                                                                        | 🇲🇽 Mexique, 🇲🇾 Malaisie et fabricants partenaires en Asie                          | 2026-10-25   |
 
 ## Finlande 🇫🇮
 
