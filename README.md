@@ -113,6 +113,7 @@ Une base ouverte pour retrouver le siège, le capital et les lieux de fabricatio
 | SONGMICS    | Brand            | Home & Living            | https://www.songmics.com/          | 🇨🇳 Chine     | 🇨🇳 Chinois (groupe [Ziel Home](#ziel-home))                                                                                                    | 🇨🇳 Chine      | 2026-08-03   |
 | Sonoff      | Brand            | Technology & Electronics | https://sonoff.tech/               | 🇨🇳 Chine     | 🇨🇳 Chinois ([ITEAD](#itead))                                                                                                                   | 🇨🇳 Chine      | 2026-08-03   |
 | Ziel Home   | Industrial group | Home & Living            | https://www.songmicshomegroup.com/ | 🇨🇳 Chine     | 🇨🇳 Chinois (société cotée à la [Bourse de Shenzhen](https://www.szse.cn/English/siteMarketData/siteMarketDatas/stocks/index.html?code=301376)) | 🇨🇳 Chine      | 2026-08-03   |
+| GANCUBE     | Brand            | Baby, Kids & Toys        | https://www.gancube.com/            | 🇨🇳 Chine     | 🇨🇳 Chinois (entreprise privée)                                                                                                                 | 🇨🇳 Chine      | 2026-10-25   |
 
 ## Danemark 🇩🇰
 
