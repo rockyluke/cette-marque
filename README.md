@@ -67,6 +67,7 @@ Une base ouverte pour retrouver le siège, le capital et les lieux de fabricatio
 | WENKO                   | Brand            | Home & Living            | https://www.wenko.com/                              | 🇩🇪 Allemagne | 🇩🇪 Allemand (entreprise familiale)                                                                                    | 🌍 Fabricants partenaires internationaux selon les produits            | 2026-08-17   |
 | Balisto                 | Brand            | Food & Beverage          | https://www.mars.com/fr-fr/our-brands/mars-snacking | 🇩🇪 Allemagne | 🇺🇸 Américain ([Mars](#mars))                                                                                          | 🌍 Europe, notamment France et Allemagne                               | 2026-08-18   |
 | Braun (soins et rasage) | Brand            | Beauty & Personal Care   | https://fr.braun.com/                               | 🇩🇪 Allemagne | 🇺🇸 Américain ([Procter & Gamble](#procter--gamble))                                                                   | 🌍 Allemagne et autres sites de Procter & Gamble selon les produits    | 2026-08-18   |
+| Metylan                 | Brand            | DIY & Garden             | https://www.metylan.de/                             | 🇩🇪 Allemagne | 🇩🇪 Allemand ([Henkel](#henkel))                                                                                       | 🇩🇪 Allemagne et autres sites Henkel selon les produits                | 2026-11-11   |
 
 ## Belgique 🇧🇪
 
