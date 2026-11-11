@@ -508,9 +508,10 @@ Une base ouverte pour retrouver le siège, le capital et les lieux de fabricatio
 
 ## Hong Kong 🇭🇰
 
-| Brand | Type  | Category          | Website                    | Headquarters | Ownership                                 | Manufacturing | Last checked |
-| ----- | ----- | ----------------- | -------------------------- | ------------ | ----------------------------------------- | ------------- | ------------ |
-| Intex | Brand | Sports & Outdoors | https://www.intexcorp.com/ | 🇭🇰 Hong Kong | 🇭🇰 Hongkongais (groupe privé indépendant) | 🇨🇳 Chine      | 2026-08-03   |
+| Brand | Type             | Category          | Website                    | Headquarters | Ownership                                        | Manufacturing | Last checked |
+| ----- | ---------------- | ----------------- | -------------------------- | ------------ | ------------------------------------------------ | ------------- | ------------ |
+| Intex | Brand            | Sports & Outdoors | https://www.intexcorp.com/ | 🇭🇰 Hong Kong | 🇭🇰 Hongkongais (groupe privé indépendant)        | 🇨🇳 Chine      | 2026-08-03   |
+| ZURU  | Industrial group | Baby, Kids & Toys | https://zurutoys.com/      | 🇭🇰 Hong Kong | 🇳🇿 Néo-zélandais (famille Mowbray, groupe privé) | 🇨🇳 Chine      | 2026-11-11   |
 
 ## Irlande 🇮🇪
 

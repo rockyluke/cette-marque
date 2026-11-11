@@ -1904,5 +1904,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Metylan_Logo.jpg",
     "license": "Attribution",
     "artist": "Henkel"
+  },
+  "ZURU": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/ZURU%20Logo%20RGB.png",
+    "commons_title": "File:ZURU Logo RGB.png",
+    "source": "https://commons.wikimedia.org/wiki/File:ZURU_Logo_RGB.png",
+    "license": "CC0",
+    "artist": "Zurulogo"
   }
 }
