@@ -1911,5 +1911,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:ZURU_Logo_RGB.png",
     "license": "CC0",
     "artist": "Zurulogo"
+  },
+  "XSHOT": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Zuru%20X-Shot%20Logo.png",
+    "commons_title": "File:Zuru X-Shot Logo.png",
+    "source": "https://commons.wikimedia.org/wiki/File:Zuru_X-Shot_Logo.png",
+    "license": "Public domain",
+    "artist": "ZURU"
   }
 }
