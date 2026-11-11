@@ -259,6 +259,7 @@ Une base ouverte pour retrouver le siège, le capital et les lieux de fabricatio
 | Days of Wonder         | Brand                    | Baby, Kids & Toys        | https://www.daysofwonder.com/                              | 🇺🇸 États-Unis | 🇸🇪 Suédois ([Asmodee](#asmodee))                                                                           | 🇨🇳 Chine et 🇪🇺 Europe selon les jeux et les éditions                               | 2026-09-17   |
 | Exploding Kittens      | Brand                    | Baby, Kids & Toys        | https://www.explodingkittens.com/                          | 🇺🇸 États-Unis | 🇸🇪 Suédois ([Asmodee](#asmodee))                                                                           | 🇨🇳 Chine selon les produits                                                        | 2026-09-17   |
 | Bose                   | Brand                    | Technology & Electronics | https://www.bose.com/                                      | 🇺🇸 États-Unis | 🇺🇸 Américain (entreprise privée)                                                                           | 🇲🇽 Mexique, 🇲🇾 Malaisie et fabricants partenaires en Asie                          | 2026-10-25   |
+| Nerf                   | Brand                    | Baby, Kids & Toys        | https://nerf.hasbro.com/                                   | 🇺🇸 États-Unis | 🇺🇸 Américain ([Hasbro](#hasbro))                                                                           | 🌍 Fabricants partenaires, notamment en Asie, au Vietnam et au Mexique              | 2026-11-11   |
 
 ## Finlande 🇫🇮
 

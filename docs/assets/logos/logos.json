@@ -1918,5 +1918,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Zuru_X-Shot_Logo.png",
     "license": "Public domain",
     "artist": "ZURU"
+  },
+  "Nerf": {
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Nerf%20logo.svg",
+    "commons_title": "File:Nerf logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Nerf_logo.svg",
+    "license": "Public domain",
+    "artist": "Hasbro"
   }
 }
